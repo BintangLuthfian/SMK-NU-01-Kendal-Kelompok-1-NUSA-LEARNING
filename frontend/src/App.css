@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.noSpace {
+  white-space: pre-wrap;
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.profile-btn {
+  display: inline-block;
+  height: 32px;
+  width: 34px;
+  text-align: center;
+  border-radius: 9999px;
+  cursor: pointer;
+}
