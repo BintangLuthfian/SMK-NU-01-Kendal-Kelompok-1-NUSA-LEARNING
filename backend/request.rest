@@ -1,0 +1,35 @@
+GET http://localhost:5000/users
+<<<<<<< HEAD
+Authorization: Bearer 
+
+=======
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsIm5hbWUiOiJCIEx1dGhmaWFuIiwiZW1haWwiOiJlbWFpbEBnbWFpbC5jb20iLCJpYXQiOjE2ODg1NDE3MDIsImV4cCI6MTY4ODU0MTcxN30.6q55By6gAZ71O-4lmqDPnEcaVkja06WYnFyOrSHt1KI
+>>>>>>> 8594422f6ffd44924aa1cae6a0a1a9c7c2544821
+
+###
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "B Luthfian",
+    "email": "email@gmail.com",
+    "password": "123456",
+    "confPassword": "123456"
+}
+
+###
+POST  http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "email@gmail.com",
+    "password": "123456"
+}
+
+
+###
+GET  http://localhost:5000/token
+
+
+###
+DELETE  http://localhost:5000/logout

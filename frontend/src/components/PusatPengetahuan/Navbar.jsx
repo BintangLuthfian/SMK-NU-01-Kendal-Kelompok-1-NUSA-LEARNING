@@ -1,10 +1,22 @@
 function Navbar() {
     return (
         <>
-            <div className="navbar h-[64px]">
+            <div className="navbar h-[64px]"
+            style={{
+                backgroundColor: "blue"
+            }}>
                 <div className="navbar-start">
                     <div className="flex">
-                        <h3 className="text-[14px] text-sm text-black font-bold ml-[49px]">Logo NusaLearning</h3>
+                    <img
+            src="./Icon/iconnavbar.png"
+            alt=""
+            className="mx-3 w-[18px] cursor-pointer"
+            style={{
+                width: "200px",
+                height: "50px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                         <div className="ml-[106px]">
                             <input type="text" className="bg-white border-2 border-black text-blue500 text-sm block w-[542px] pl-[20px] p-[10px] ml-[106px]" placeholder="Cari Pelatihan..." />
                         </div>
