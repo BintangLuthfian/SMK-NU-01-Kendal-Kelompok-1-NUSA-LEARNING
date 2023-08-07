@@ -1,6 +1,7 @@
 //  Percobaan
 
 import './App.css';
+import AdminDashboard from './Pages/Admin Page/AdminDashboard';
 import Home from "./Pages/Home";
 // import AdminDashboard from './Pages/Admin Page/AdminDashboard';
 // import KategoriPelatihan from './Pages/KategoriPelatihan';
@@ -15,6 +16,7 @@ function App() {
     <div>
       <Home />
       {/* <KategoriPelatihan /> */}
+      {/* <AdminDashboard /> */}
       {/* <AdminDashboard /> */}
       {/* <Login /> */}
       {/* <Register /> */}

@@ -6,7 +6,8 @@ module.exports = {
       fontFamily: {
         rubik: ['Rubik', 'sans-serif'],
         regular: ['Inter', 'sans-serif'],
-        Raleway: ['Raleway', 'sans-serif']
+        Raleway: ['Raleway', 'sans-serif'],
+        Poppins: ['Poppins', 'sans-serif']
       },
       spacing: {
         GambarBGHome: '648px',
@@ -39,6 +40,7 @@ module.exports = {
       gray900: "#111827",
 
       //Red Color
+      red: "#EC2028",
       red500: "#ef4444",
       red600: "#dc2626",
 
