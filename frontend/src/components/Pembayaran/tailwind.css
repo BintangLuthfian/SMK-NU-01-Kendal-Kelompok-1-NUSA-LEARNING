@@ -1,0 +1,21 @@
+/* tailwind.css */
+
+/* Define your custom color for the overflow */
+.overflow-custom {
+    scrollbar-color: 
+     /* #your-custom-color #your-scrollbar-background-color; */
+  }
+  
+  /* Optional: You can also customize the scrollbar width and track color */
+  .overflow-custom::-webkit-scrollbar {
+    width: 8px; /* Change this value as needed */
+  }
+  
+  .overflow-custom::-webkit-scrollbar-thumb {
+    background-color: red;
+  }
+  
+  .overflow-custom::-webkit-scrollbar-track {
+    background-color: white;
+  }
+  

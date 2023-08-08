@@ -13,7 +13,12 @@ function Navbar() {
                                 </svg>
                             </button>
                             <a href="https://flowbite.com" className="flex ml-2 md:mr-24">
-                                <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap text-black">NusaLearning</span>
+                            <img
+                                src="./assets/iconnavbar.png"
+                                alt=""
+                                className="mx-3 w-[18px] cursor-pointer"
+                                onClick={() => alert("Notification here")}
+                            />
                             </a>
                         </div>
                         <div className="flex items-center">
