@@ -2,21 +2,20 @@
 
 import './App.css';
 import AdminDashboard from './Pages/Admin Page/AdminDashboard';
-import Home from "./Pages/Home";
-// import AdminDashboard from './Pages/Admin Page/AdminDashboard';
+// import Home from "./Pages/Home";
 // import KategoriPelatihan from './Pages/KategoriPelatihan';
 // import Login from './Pages/Login';
 // import Register from './Pages/Register';
 // import Pengetahuan from './Pages/Pengetahuan';
-// import Login from './Pages/Login';
+import Login from './Pages/Login';
 // import Register from './Pages/Register';
 
 function App() {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
       {/* <KategoriPelatihan /> */}
-      {/* <AdminDashboard /> */}
+      <AdminDashboard />
       {/* <AdminDashboard /> */}
       {/* <Login /> */}
       {/* <Register /> */}
