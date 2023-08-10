@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import Content from './Content';
 import Pagination from './Pagination';
 
-function Sertifikat() {
+function PaymentHistory() {
 
     const [visibleItems, setVisibleItems] = useState(1);
     const itemsPerPage = 5; // Set the desired number of items per page
 
     // Sample data for the content items
-    const items = Array.from({ length: 20 }, (_, index) => `Item ${index + 1}`);
+    const items = Array.from({ length: 28 }, (_, index) => `Item ${index + 1}`);
 
     // Calculate total pages based on the number of items and items per page
     const totalPages = Math.ceil(items.length / itemsPerPage);
@@ -27,10 +27,10 @@ function Sertifikat() {
         <div className="h-screen bg-white">
             <div className="sm:ml-[254px] bg-white relative">
                 <div className="p-6 mt-[53px] h-full">
-                    <h3 className="text-xl font-bold text-black">Sertifikat</h3>
+                    <h3 className="text-xl font-bold text-black">Payment History</h3>
                     <div className="flex mt-[20px]">
                         <div className="cursor-pointer flex justify-center items-center border w-[236px] h-[42px] mr-3">
-                            Cari Sertifikat
+                            Cari Kode Registrasi
                         </div>
                         <div className='select-none'>
                             <div
@@ -40,10 +40,9 @@ function Sertifikat() {
                                 onClick={toggleDropdownKategori}
                             >
                                 <label className="">
-                                    Pilih kategori
+                                    Sort By
                                 </label>
                                 <div className='absolute right-3'>
-
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="none"
@@ -70,23 +69,20 @@ function Sertifikat() {
                             </div>
                             <ul
                                 id="dropdownKategori"
-                                className={`absolute mt-3 z-[1] py-3 shadow bg-white dropdown-content rounded border border-gray-300 w-[236px] ${dropdownKategori ? '' : 'hidden'
+                                className={`absolute mt-3 z-[1] py-3 shadow bg-white dropdown-content rounded border border-gray-300 text-black w-[236px] ${dropdownKategori ? '' : 'hidden'
                                     }`}
                             >
-                                <li className="font-bold w-full h-fit text-black mb-[10px] ml-[19px]">
-                                    Pilih Kategori
+                                <li className="font-bold w-full h-fit mb-[10px] ml-[19px]">
+                                    Sort By
                                 </li>
                                 <li className="cursor-pointer w-full h-fit hover:bg-gray-300">
-                                    <a className="block py-2 px-4">Kategori A</a>
+                                    <a className="block py-2 px-4">Recent </a>
                                 </li>
                                 <li className="cursor-pointer w-full h-fit hover:bg-gray-300">
-                                    <a className="block py-2 px-4">Kategori B</a>
+                                    <a className="block py-2 px-4">Oldest</a>
                                 </li>
                                 <li className="cursor-pointer w-full h-fit hover:bg-gray-300">
-                                    <a className="block py-2 px-4">Kategori C</a>
-                                </li>
-                                <li className="cursor-pointer w-full h-fit hover:bg-gray-300">
-                                    <a className="block py-2 px-4">Kategori D</a>
+                                    <a className="block py-2 px-4">Judul Pelatihan</a>
                                 </li>
                             </ul>
                         </div>
@@ -114,4 +110,4 @@ function Sertifikat() {
     );
 }
 
-export default Sertifikat;
+export default PaymentHistory;

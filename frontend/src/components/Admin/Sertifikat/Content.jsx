@@ -1,6 +1,6 @@
 function Content({ visibleItems }) {
 
-    const itemsPerPage = 3;
+    const itemsPerPage = 5;
     const items = Array.from({ length: 20 }, (_, index) => `Item ${index + 1}`);
     const startIndex = (visibleItems - 1) * itemsPerPage;
     const visibleItemsData = items.slice(startIndex, startIndex + itemsPerPage);

@@ -1,8 +1,8 @@
-import Footer from "../components/PusatPengetahuan/Footer";
-import Navbar from "../components/PusatPengetahuan/Navbar";
-import Nomer2 from '../components/PusatPengetahuan/Nomer2';
-import Nomer3 from "../components/PusatPengetahuan/Nomer3";
-import Nomer4 from "../components/PusatPengetahuan/Nomer4";
+import Footer from "../components/TampilanSemuaUnit/Footer";
+import Navbar from "../components/TampilanSemuaUnit/Navbar";
+import Nomer2 from '../components/TampilanSemuaUnit/Nomer2';
+import Nomer3 from "../components/TampilanSemuaUnit/Nomer3";
+import Nomer4 from "../components/TampilanSemuaUnit/Nomer4";
 
 function Home() {
     return (

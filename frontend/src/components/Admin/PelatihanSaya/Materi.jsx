@@ -10,7 +10,7 @@ function Materi() {
                             <h3 className="text-xl font-bold text-black">Pelatihan Saya</h3>
                         </a>
                         <div className="mt-[20px] text-black">
-                            <h3 className="text-sm font-bold text-black">Detail Pelatihan</h3>
+                            <h3 className="text-sm font-bold text-black">judul pelatihan</h3>
                             <div className="border w-full h-full mt-[20px]">
                                 <div className="flex justify-between bg-white border-b w-full p-4 h-[60px]">
                                     <a href="/Admin/Dashboard/Kuis">
