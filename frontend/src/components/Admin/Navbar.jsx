@@ -29,15 +29,7 @@ function Navbar() {
                                         </button>
                                     </div>
                                 </div>
-                                <div className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray100 rounded shadow dark:bg-gray700 dark:divide-gray600" id="dropdown-user">
-                                    <div className="px-4 py-3" role="none">
-                                        <p className="text-sm text-gray900 dark:text-black" role="none">
-                                            Neil Sims
-                                        </p>
-                                        <p className="text-sm font-medium text-gray900 truncate dark:text-gray300" role="none">
-                                            neil.sims@flowbite.com
-                                        </p>
-                                    </div>
+                                <div className="z-50 hidden my-4 px-4 py-3 text-base list-none bg-white divide-y divide-gray100 rounded shadow dark:bg-gray700 dark:divide-gray600" id="dropdown-user">
                                     <ul className="py-1" role="none">
                                         <li>
                                             <a href="#" className="block px-4 py-2 text-sm text-gray700 hover:bg-gray100 dark:text-gray300 dark:hover:bg-gray600 dark:hover:text-black" role="menuitem">Dashboard</a>

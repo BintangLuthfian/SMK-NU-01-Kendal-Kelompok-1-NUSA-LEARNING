@@ -1,9 +1,16 @@
+import Facebook from "../../../public/Logo/Facebook.png";
+import Instagram from "../../../public/Logo/Instagram.png";
+import Twitter from "../../../public/Logo/Twitter.png";
+import YouTube from "../../../public/Logo/YouTube.png";
+import PlayStore from "../../../public/Logo/PlayStore.png";
+import AppStore from "../../../public/Logo/AppStore.png";
+
 function Footer() {
     return (
         <>
 
-            <div className="footer py-5 px-[62px] bg-gray100 text-neutral-content border border-black border-t-2">
-                <div className="text-black flex justify-self-start mr-[170px]">
+            <div className="footer py-5 px-[62px] bg-red text-neutral-content border border-black border-t-2">
+                <div className="text-white flex justify-self-start mr-[170px]">
                     <span className="mr-[52px]">
                         <h3 className="text-lg font-bold">NusaLearning</h3>
                         <a href="#">
@@ -29,27 +36,39 @@ function Footer() {
                 </div>
                 <div className="flex justify-self-end">
                     <span className="mr-[123px]">
-                        <h3 className="text-lg font-bold text-black">Follow Us on</h3>
-                        <div className="flex mt-[4px]">
+                        <h3 className="text-lg font-bold text-white">Follow Us on</h3>
+                        <div className="flex mt-[7px]">
                             <a href="#">
-                                <div className="btn rounded-full text-black text-sm bg-gray300 hover:bg-gray300 border border-none mr-1">FB</div>
+                                <div className="mr-3">
+                                    <img src={Facebook} alt="" />
+                                </div>
                             </a>
                             <a href="#">
-                                <div className="btn rounded-full text-black text-sm bg-gray300 hover:bg-gray300 border border-none mr-1">IG</div>
+                                <div className="mr-3">
+                                    <img src={Instagram} alt="" />
+                                </div>
                             </a>
                             <a href="#">
-                                <div className="btn rounded-full text-black text-sm bg-gray300 hover:bg-gray300 border border-none mr-1">Twitter</div>
+                                <div className="mr-3">
+                                    <img src={Twitter} alt="" />
+                                </div>
                             </a>
                             <a href="#">
-                                <div className="btn rounded-full text-black text-sm bg-gray300 hover:bg-gray300 border border-none mr-1">YT</div>
+                                <div>
+                                    <img src={YouTube} alt="" />
+                                </div>
                             </a>
                         </div>
                     </span>
                     <span>
-                        <h3 className="text-lg font-bold text-black">Download NusaLMS Mobile</h3>
+                        <h3 className="text-lg font-bold text-white">Download NusaLMS Mobile</h3>
                         <div className="flex mt-[4px]">
-                            <div className="btn rounded-none text-black text-sm bg-white hover:bg-white border border-black w-[112px] h-[26px] mr-4">Play Store</div>
-                            <div className="btn rounded-none text-black text-sm bg-white hover:bg-white border border-black w-[106px] h-[26px]">App Store</div>
+                            <div className="mr-3">
+                                <img src={PlayStore} className="h-[35px]" alt="" />
+                            </div>
+                            <div>
+                                <img src={AppStore} alt="" />
+                            </div>
                         </div>
                     </span>
                 </div>

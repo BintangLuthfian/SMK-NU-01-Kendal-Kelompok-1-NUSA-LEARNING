@@ -68,7 +68,7 @@ function NavSideBar() {
                                         Pelatihan Saya</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="flex items-center p-2 text-black transition duration-75 rounded-none pl-10 bg-white hover:bg-gray500 hover:border-s-2 hover:border-b-2 hover:border-t-2 w-full group">
+                                    <a href="/Admin/Sertifikat" className="flex items-center p-2 text-black transition duration-75 rounded-none pl-10 bg-white hover:bg-gray500 hover:border-s-2 hover:border-b-2 hover:border-t-2 w-full group">
                                         Sertifikat</a>
                                 </li>
                                 <li>

@@ -1,7 +1,5 @@
 import React, { useRef, useState } from 'react';
 import Html from "../../../public/Logo/Html.png";
-// import Css from "../../public/Logo/CSS.png";
-// import Javascript from "../../public/Logo/Javascript.png";
 
 function Nomer3() {
     const scrollContainerRef = useRef(null);
@@ -58,7 +56,7 @@ function Nomer3() {
     return (
         <>
             <div
-                className="w-full h-[430px] bg-white relative"
+                className="w-full h-[430px] relative"
                 onMouseMove={handleMouseMove}
                 onMouseUp={handleMouseUp}
                 onMouseLeave={handleMouseUp}
@@ -80,9 +78,9 @@ function Nomer3() {
                     onScroll={handleScroll}
                     onMouseDown={handleMouseDown}
                 >
-                    <div className="flex flex-nowrap ml-[46px]">
-                        <div className="pr-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
+                    <div className="flex h-fit ml-[29px] py-[21px]">
+                        <div className="px-[17px]">
+                            <div className="btn border-none rounded-xl bg-red hover:bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
                                     <img src={Html} alt="" />
                                 </div>
@@ -90,8 +88,8 @@ function Nomer3() {
                                 <p className='text-white'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
+                        <div className="px-[17px]">
+                            <div className="btn border-none rounded-xl bg-red hover:bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
                                     <img src={Html} alt="" />
                                 </div>
@@ -99,8 +97,8 @@ function Nomer3() {
                                 <p className='text-white'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
+                        <div className="px-[17px]">
+                            <div className="btn border-none rounded-xl bg-red hover:bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
                                     <img src={Html} alt="" />
                                 </div>
@@ -108,9 +106,9 @@ function Nomer3() {
                                 <p className='text-white'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
+
+                        <div className="px-[17px]">
+                            <div className="btn border-none rounded-xl bg-red hover:bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
                                     <img src={Html} alt="" />
                                 </div>
@@ -118,9 +116,9 @@ function Nomer3() {
                                 <p className='text-white'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
+
+                        <div className="px-[17px]">
+                            <div className="btn border-none rounded-xl bg-red hover:bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
                                     <img src={Html} alt="" />
                                 </div>
@@ -128,9 +126,9 @@ function Nomer3() {
                                 <p className='text-white'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
+
+                        <div className="px-[17px]">
+                            <div className="btn border-none rounded-xl bg-red hover:bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
                                     <img src={Html} alt="" />
                                 </div>
@@ -138,107 +136,6 @@ function Nomer3() {
                                 <p className='text-white'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
-                                <div className="w-[110px] h-[85px] mt-[14px]">
-                                    <img src={Html} alt="" />
-                                </div>
-                                <h3 className='font-[Poppins] text-lg text-white mt-[36px]'>HTML Dasar</h3>
-                                <p className='text-white'>Deskripsi kategori</p>
-                            </div>
-                        </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
-                                <div className="w-[110px] h-[85px] mt-[14px]">
-                                    <img src={Html} alt="" />
-                                </div>
-                                <h3 className='font-[Poppins] text-lg text-white mt-[36px]'>HTML Dasar</h3>
-                                <p className='text-white'>Deskripsi kategori</p>
-                            </div>
-                        </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
-                                <div className="w-[110px] h-[85px] mt-[14px]">
-                                    <img src={Html} alt="" />
-                                </div>
-                                <h3 className='font-[Poppins] text-lg text-white mt-[36px]'>HTML Dasar</h3>
-                                <p className='text-white'>Deskripsi kategori</p>
-                            </div>
-                        </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
-                                <div className="w-[110px] h-[85px] mt-[14px]">
-                                    <img src={Html} alt="" />
-                                </div>
-                                <h3 className='font-[Poppins] text-lg text-white mt-[36px]'>HTML Dasar</h3>
-                                <p className='text-white'>Deskripsi kategori</p>
-                            </div>
-                        </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
-                                <div className="w-[110px] h-[85px] mt-[14px]">
-                                    <img src={Html} alt="" />
-                                </div>
-                                <h3 className='font-[Poppins] text-lg text-white mt-[36px]'>HTML Dasar</h3>
-                                <p className='text-white'>Deskripsi kategori</p>
-                            </div>
-                        </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
-                                <div className="w-[110px] h-[85px] mt-[14px]">
-                                    <img src={Html} alt="" />
-                                </div>
-                                <h3 className='font-[Poppins] text-lg text-white mt-[36px]'>HTML Dasar</h3>
-                                <p className='text-white'>Deskripsi kategori</p>
-                            </div>
-                        </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
-                                <div className="w-[110px] h-[85px] mt-[14px]">
-                                    <img src={Html} alt="" />
-                                </div>
-                                <h3 className='font-[Poppins] text-lg text-white mt-[36px]'>HTML Dasar</h3>
-                                <p className='text-white'>Deskripsi kategori</p>
-                            </div>
-                        </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
-                                <div className="w-[110px] h-[85px] mt-[14px]">
-                                    <img src={Html} alt="" />
-                                </div>
-                                <h3 className='font-[Poppins] text-lg text-white mt-[36px]'>HTML Dasar</h3>
-                                <p className='text-white'>Deskripsi kategori</p>
-                            </div>
-                        </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
-                                <div className="w-[110px] h-[85px] mt-[14px]">
-                                    <img src={Html} alt="" />
-                                </div>
-                                <h3 className='font-[Poppins] text-lg text-white mt-[36px]'>HTML Dasar</h3>
-                                <p className='text-white'>Deskripsi kategori</p>
-                            </div>
-                        </div>
-                        
-                        <div className="px-[17px] py-[21px]">
-                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
-                                <div className="w-[110px] h-[85px] mt-[14px]">
-                                    <img src={Html} alt="" />
-                                </div>
-                                <h3 className='font-[Poppins] text-lg text-white mt-[36px]'>HTML Dasar</h3>
-                                <p className='text-white'>Deskripsi kategori</p>
-                            </div>
-                        </div>
-                        
                     </div>
                 </div>
                 {!isScrollAtStart && (

@@ -2,8 +2,8 @@
 
 import './App.css';
 import AdminDashboard from './Pages/Admin Page/AdminDashboard';
-// import Home from "./Pages/Home";
-// import KategoriPelatihan from './Pages/KategoriPelatihan';
+import Home from "./Pages/Home";
+import KategoriPelatihan from './Pages/KategoriPelatihan';
 // import Login from './Pages/Login';
 // import Register from './Pages/Register';
 // import Pengetahuan from './Pages/Pengetahuan';

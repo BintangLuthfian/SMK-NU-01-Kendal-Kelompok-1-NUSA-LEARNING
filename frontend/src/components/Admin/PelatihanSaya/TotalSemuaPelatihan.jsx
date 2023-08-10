@@ -29,8 +29,12 @@ function TotalSemuaPelatihan({ showDiv1, visibleItems, onPaginationChange }) {
                   <h4 className='text-black text-sm ml-1'>75%</h4>
                 </div>
                 <div className='flex mt-4 justify-center'>
-                  <div className='btn mr-2 rounded-none'>Lihat Materi</div>
-                  <div className='btn ml-2 rounded-none'>Detail</div>
+                  <a href="/Admin/Pelatihan/Materi">
+                    <div className='btn mr-2 rounded-none'>Lihat Materi</div>
+                  </a>
+                  <a href="/Admin/Pelatihan/Detail">
+                    <div className='btn ml-2 rounded-none'>Detail</div>
+                  </a>
                 </div>
               </div>
               <div className="flex justify-center items-center absolute bottom-0 right-0 border-l border-t text-black w-[109px] h-[29px]">Uncompleted</div>
