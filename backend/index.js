@@ -4,21 +4,23 @@ import cookieParser from "cookie-parser";
 import cors from "cors"
 import db from "./config/database.js";
 import router from "./routes/index.js";
+import AddUsers from "./routes/addUsers.js";
 
 dotenv.config();
-const app = express ();
+const app = express();
 
 try {
-        await db.authenticate();
-        console.log ('data base connected...');
-        // await db.sync()
+    await db.authenticate();
+    console.log('data base connected...');
+    // await db.sync()
 } catch (error) {
-    console.error ('error');
+    console.error('error');
 }
 
-app.use(cors({ credentials:true, origin:'http://localhost:5173' }));
+app.use(cors({ credentials: true, origin: 'http://localhost:5173' }));
 app.use(cookieParser());
 app.use(express.json());
 app.use(router);
+app.use(AddUsers);
 
-app.listen(5000, ()=> console.log('server running at port 5000')); 
+app.listen(5000, () => console.log('server running at port 5000')); 

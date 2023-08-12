@@ -33,3 +33,42 @@ GET  http://localhost:5000/token
 
 ###
 DELETE  http://localhost:5000/logout
+
+###
+GET  http://localhost:5000/addUsers
+
+###
+GET  http://localhost:5000/addUsers/11
+
+###
+POST  http://localhost:5000/addUsers
+Content-Type: application/json
+
+{
+    "nama_Lengkap": "rf",
+    "email": "defr12@gmail.com",
+    "Nomor_Telepon": "02830813",
+    "Tanggal_Lahir": "1999-12-19",
+    "negara": "Kendal",
+    "Tempat_Tinggal": "Kaliwungu",
+    "password": "123456789",
+    "confirmPassword": "123456789"
+}
+
+###
+PATCH   http://localhost:5000/addUsers/11
+Content-Type: application/json
+
+{
+    "nama_Lengkap": "rf",
+    "email": "cnrifn13@gmail.com",
+    "Nomor_Telepon": "02839813",
+    "Tanggal_Lahir": "1999-12-19",
+    "negara": "Kendal",
+    "Tempat_Tinggal": "Kaliwungu",
+    "password": "123456789",
+    "confirmPassword": "123456789"
+}
+
+###
+DELETE http://localhost:5000/addUsers/11
