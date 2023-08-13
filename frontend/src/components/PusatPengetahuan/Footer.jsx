@@ -32,24 +32,88 @@ function Footer() {
                         <h3 className="text-lg font-bold text-black">Follow Us on</h3>
                         <div className="flex mt-[4px]">
                             <a href="#">
-                                <div className="btn rounded-full text-black text-sm bg-gray300 hover:bg-gray300 border border-none mr-1">FB</div>
+                            <img
+                                src="./Fluter/facebook.png"
+                                alt=""
+                                className="cursor-pointer"
+                                onClick={() => alert("Notification here")}
+                                style={{
+                                    width: "50px",
+                                    height: "50px",
+                                    borderRadius: "50%"
+                                }}
+                            />
                             </a>
                             <a href="#">
-                                <div className="btn rounded-full text-black text-sm bg-gray300 hover:bg-gray300 border border-none mr-1">IG</div>
+                            <img
+                                src="./Fluter/instagram (1).png"
+                                alt=""
+                                className="cursor-pointer"
+                                onClick={() => alert("Notification here")}
+                                style={{
+                                    width: "50px",
+                                    height: "50px",
+                                    borderRadius: "50%"
+                                }}
+                            />
                             </a>
                             <a href="#">
-                                <div className="btn rounded-full text-black text-sm bg-gray300 hover:bg-gray300 border border-none mr-1">Twitter</div>
+                            <img
+                                src="./Fluter/twitter.png"
+                                alt=""
+                                className="cursor-pointer"
+                                onClick={() => alert("Notification here")}
+                                style={{
+                                    width: "50px",
+                                    height: "50px",
+                                    borderRadius: "50%"
+                                }} 
+                                />
                             </a>
                             <a href="#">
-                                <div className="btn rounded-full text-black text-sm bg-gray300 hover:bg-gray300 border border-none mr-1">YT</div>
+                            <img
+                                src="./Fluter/youtube.png"
+                                alt=""
+                                className="cursor-pointer"
+                                onClick={() => alert("Notification here")}
+                                style={{
+                                    width: "50px",
+                                    height: "50px",
+                                    borderRadius: "50%"
+                                }} 
+                                />
                             </a>
                         </div>
                     </span>
                     <span>
                         <h3 className="text-lg font-bold text-black">Download NusaLMS Mobile</h3>
                         <div className="flex mt-[4px]">
-                            <div className="btn rounded-none text-black text-sm bg-white hover:bg-white border border-black w-[112px] h-[26px] mr-4">Play Store</div>
-                            <div className="btn rounded-none text-black text-sm bg-white hover:bg-white border border-black w-[106px] h-[26px]">App Store</div>
+                            <div className="btn rounded-none text-black text-sm bg-white hover:bg-white border w-[112px] h-[26px] mr-4">
+                            <img
+                                src="./Fluter/google-play.png"
+                                alt=""
+                                className="cursor-pointer"
+                                onClick={() => alert("Notification here")}
+                                style={{
+                                    width: "50px",
+                                    height: "50px",
+                                    borderRadius: "50%"
+                                }} 
+                                />
+                            </div>
+                            <div className="btn rounded-none text-black text-sm bg-white hover:bg-white border w-[106px] h-[26px]">
+                            <img
+                                src="./Fluter/app-store.png"
+                                alt=""
+                                className="cursor-pointer"
+                                onClick={() => alert("Notification here")}
+                                style={{
+                                    width: "50px",
+                                    height: "50px",
+                                    borderRadius: "50%"
+                                }} 
+                                />
+                            </div>
                         </div>
                     </span>
                 </div>

@@ -81,7 +81,16 @@ function Nomer4() {
                         <div className="pr-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/html.png"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -122,7 +131,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/htmlm.jpeg"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -163,7 +181,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/html-paragraf.png"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -204,7 +231,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/avatar.jpg"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -245,7 +281,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/thumb.png"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -286,7 +331,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/css.jpg"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -327,7 +381,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/pemrograman-javascript.jpg"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -368,7 +431,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/javascript-1.jpg"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -409,7 +481,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/js.jpg"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -450,7 +531,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/html.png"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -491,7 +581,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/javascript-1.jpg"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -532,7 +631,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/avatar.jpg"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -573,7 +681,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/pemrograman-javascript.jpg"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -614,7 +731,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/thumb.png"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -655,7 +781,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/css.jpg"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
@@ -696,7 +831,16 @@ function Nomer4() {
                         <div className="px-[17px]">
                             <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                                 <div className="bg-yellow400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
-                                    Sampul Pelatihan
+                                <img
+            src="./Sampul/html.png"
+            alt=""
+            className="cursor-pointer"
+            style={{
+                width: "350px",
+                height: "136px"
+            }}
+            onClick={() => alert("Masih tahap Pengembangan")}
+          />
                                 </div>
                                 <div className='table ml-[16px]'>
                                     <h3 className='text-lg font-[Poppins] text-left'>Judul Pelatihan </h3>
