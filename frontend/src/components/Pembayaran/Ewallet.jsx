@@ -53,7 +53,7 @@ const Ewallet = () => {
 
             <div className="border-b border-[#EC2028;] pb-1 mt-2"></div>
           <div className="flex justify-between">
-            <h1 className="font-bold pl-3 text-xs pt-2 font-bold text-[#EC2028;]">How To Play</h1>
+            <h1 className="font-bold pl-3 text-xs pt-2 text-[#EC2028;]">How To Play</h1>
             <div className="pr-4">
               <button onClick={handleDropdownToggle}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
