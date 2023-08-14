@@ -67,7 +67,7 @@ function App() {
        <Route path="/login" element={<Login />} />
        <Route path="/register" element={<Register />} />
        <Route path="/kategori" element={<KategoriPelatihan />} />
-       <Route path="/data" element={<Data />} />
+       <Route path="/hal-pembayaran" element={<Data />} />
        <Route path="/bank" element={<Ban />} />
        <Route path="/E-wallet" element={<Ewall />} />
        <Route path="/credit-card" element={<Cred />} />
