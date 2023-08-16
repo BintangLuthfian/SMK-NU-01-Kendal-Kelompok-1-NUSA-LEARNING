@@ -1,20 +1,17 @@
-import SponsorImage from "../../assets/Bank.png"
-import danaImage from "../../assets/dana.webp"
-import visaImage from "../../assets/visa.png"
-import ovoImage from "../../assets/ovo.jpg"
-import logoImage from "../../assets/iconnavbar.png"
-import bgImage from "../../assets/bg/bgpembayaran.jpg"
-import Footer from "./Footer"
+
 const Credit = () => {
   return (
     <>
-      <div className="bg-cover bg-center bg-no-repeat h-screen" style={{ backgroundImage: `url(${bgImage})` }}>
+     <div className="bg-cover bg-center bg-no-repeat h-screen" 
+    style={{ 
+      backgroundImage: `url("./background pembayaran/bg pembayaran.jpg")` 
+      }}>
       <div className="flex justify-center items-center">
         <div className="bg-white w-[332px] h-[462px] mt-10 rounded-lg shadow-2xl">
           <div className="bg-[#EC2028;] w-[332px] h-24">
             
             {/* <h1 className="text-black font-semibold ml-8 pt-5 text-xl">Nusa Lms</h1> */}
-            <img src={logoImage} alt="" className="ml-8 pt-5 h-12" />
+            <img src="./assets/iconnavbar.png" alt="" className="ml-8 pt-5 h-12" />
             <div className="flex justify-center items-center mt-[14px]">
               <div className="bg-white w-[250px] h-[73px] rounded-lg shadow-lg ">
                 <div className="flex">
@@ -40,10 +37,10 @@ const Credit = () => {
             <div className="flex ml-3 mt-3 items-center">
                 <h1 className="text-sm text-[#EC2028;]">Nomor Kartu</h1>
                 <div className="ml-auto mr-3 flex items-center">
-                <img src={SponsorImage} alt="" className="h-3" />
-                <img src={danaImage} alt="" className="h-3" />
-                <img src={visaImage} alt="" className="h-3" />
-                <img src={ovoImage} alt="" className="h-3" />
+                <img src="./assets/pembayaran/Bank.png" alt="" className="h-3" />
+                <img src="./assets/pembayaran/dana.webp" alt="" className="h-3" />
+                <img src="./assets/pembayaran/visa.png" alt="" className="h-3" />
+                <img src="./assets/pembayaran/ovo.jpg" alt="" className="h-3" />
                 </div>
             </div>
 
@@ -64,10 +61,10 @@ const Credit = () => {
           </div>
 
           <div className="mt-4 flex items-center justify-center">
-                <img src={SponsorImage} alt="" className="h-3" />
-                <img src={danaImage} alt="" className="h-3" />
-                <img src={visaImage} alt="" className="h-3" />
-                <img src={ovoImage} alt="" className="h-3" />
+          <img src="./assets/pembayaran/Bank.png" alt="" className="h-3" />
+                <img src="./assets/pembayaran/dana.webp" alt="" className="h-3" />
+                <img src="./assets/pembayaran/visa.png" alt="" className="h-3" />
+                <img src="./assets/pembayaran/ovo.jpg" alt="" className="h-3" />
           </div>
           <h1 className="pt-1 text-center text-xs">Secured Payment by midtrans</h1>
 
@@ -82,13 +79,10 @@ const Credit = () => {
       </div>
      
       </div>
-      <Footer />
       
 
-    </>
+  </>
   );
 };
 
 export default Credit;
-
-

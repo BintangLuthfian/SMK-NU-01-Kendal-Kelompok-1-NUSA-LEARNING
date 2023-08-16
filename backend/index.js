@@ -5,12 +5,13 @@ import cors from "cors"
 import db from "./config/database.js";
 import router from "./routes/index.js";
 
+
 dotenv.config();
-const app = express ();
+const app = express();
 
 try {
         await db.authenticate();
-        console.log ('data base connected...');
+        console.log ('data base terhubung...');
         // await db.sync()
 } catch (error) {
     console.error ('error');

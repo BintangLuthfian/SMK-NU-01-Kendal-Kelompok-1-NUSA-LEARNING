@@ -1,4 +1,4 @@
-import Ewallet from "../components/Pembayaran/Ewallet"
+import Ewallet from "../../components/Pembayaran/Ewallet"
 
 const Ewall = () => {
   return (

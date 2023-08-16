@@ -1,9 +1,12 @@
 
-import Transfer from '../components/Pembayaran/Transfer'
+import Transfer from '../../components/Pembayaran/Transfer'
 
 const Data = () => {
   return (
+    <>
     <Transfer />
+
+    </>
   )
 }
 

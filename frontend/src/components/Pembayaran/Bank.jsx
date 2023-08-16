@@ -1,9 +1,7 @@
+
 import './tailwind.css';
 import { useState } from 'react';
 // import logoImage from "../assets/iconnavbar.png"
-import logoImage from "../../assets/iconnavbar.png";
-import bgImage from "../../assets/bg/bgpembayaran.jpg"
-import Footer from "./Footer"
 
 
 const Bank = () => {
@@ -39,13 +37,16 @@ const Bank = () => {
   
     return (
 <>
-      <div className="bg-cover bg-center bg-no-repeat h-screen" style={{ backgroundImage: `url(${bgImage})` }}>
+<div className="bg-cover bg-center bg-no-repeat h-screen" 
+    style={{ 
+      backgroundImage: `url("./background pembayaran/bg pembayaran.jpg")` 
+      }}>
       <div className="flex justify-center items-center">
         <div className="bg-white w-[332px] h-[462px] mt-10 rounded-lg shadow-2xl">
           <div className="bg-[#EC2028;] w-[332px] h-24">
             
             {/* <h1 className="text-black font-semibold ml-8 pt-5 text-xl">Nusa Lms</h1> */}
-            <img src={logoImage} alt="" className="ml-8 pt-5 h-12" />
+            <img src="./assets/iconnavbar.png" alt="" className="ml-8 pt-5 h-12" />
             <div className="flex justify-center items-center mt-[14px]">
               <div className="bg-white w-[250px] h-[73px] rounded-lg shadow-lg ">
                 <div className="flex">
@@ -152,12 +153,8 @@ const Bank = () => {
       </div>
     </div>
     </div>
-<br />
-<Footer />
 </>
   );
 };
 
 export default Bank;
-
-

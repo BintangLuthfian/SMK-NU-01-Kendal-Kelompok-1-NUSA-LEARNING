@@ -1,4 +1,4 @@
-import Bank from "../components/Pembayaran/Bank"
+import Bank from "../../components/Pembayaran/Bank"
 
 const Ban = () => {
   return (
