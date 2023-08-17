@@ -60,12 +60,12 @@ function NavSideBar() {
                             </button>
                             <ul id="dropdown-example-1" className={`space-y-2 ${isDropdown1Open ? '' : 'hidden'}`}>
                                 <li>
-                                    <a href="/Admin/Dashboard" className="flex items-center p-2 text-black transition duration-75 rounded-none pl-10 bg-white hover:bg-gray500 hover:border-s-2 hover:border-b-2 hover:border-t-2 w-full group">
+                                    <a href="/admin/Dashboard" className="flex items-center p-2 text-black transition duration-75 rounded-none pl-10 bg-white hover:bg-gray500 hover:border-s-2 hover:border-b-2 hover:border-t-2 w-full group">
                                         Dashboard
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/Admin/Users" className="flex items-center p-2 text-black transition duration-75 rounded-none pl-10 bg-white hover:bg-gray500 hover:border-s-2 hover:border-b-2 hover:border-t-2 w-full group">
+                                    <a href="/admin/Users" className="flex items-center p-2 text-black transition duration-75 rounded-none pl-10 bg-white hover:bg-gray500 hover:border-s-2 hover:border-b-2 hover:border-t-2 w-full group">
                                        Users
                                     </a>
                                 </li>
@@ -75,12 +75,12 @@ function NavSideBar() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/Admin/Sertifika" className="flex items-center p-2 text-black transition duration-75 rounded-none pl-10 bg-white hover:bg-gray500 hover:border-s-2 hover:border-b-2 hover:border-t-2 w-full group">
+                                    <a href="/admin/Sertifika" className="flex items-center p-2 text-black transition duration-75 rounded-none pl-10 bg-white hover:bg-gray500 hover:border-s-2 hover:border-b-2 hover:border-t-2 w-full group">
                                         Sertifikat
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/Admin/PaymentHistory" className="flex items-center p-2 text-black transition duration-75 rounded-none pl-10 bg-white hover:bg-gray500 hover:border-s-2 hover:border-b-2 hover:border-t-2 w-full group">
+                                    <a href="/admin/PaymentHistory" className="flex items-center p-2 text-black transition duration-75 rounded-none pl-10 bg-white hover:bg-gray500 hover:border-s-2 hover:border-b-2 hover:border-t-2 w-full group">
                                         Payment History
                                     </a>
                                 </li>

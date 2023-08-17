@@ -4,8 +4,11 @@ import { ThemeProvider } from "@material-tailwind/react";
 import App from './App.jsx'
 import './index.css'
 import 'flowbite';
+import axios from "axios"
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+axios.defaults.withCredentials = true;
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider>
       <App />

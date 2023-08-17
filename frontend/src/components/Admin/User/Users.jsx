@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import EditUser from './EditUser';
 import AddUser from './AddUser';
+ 
 
 function Users() {
   const [users, setUsers] = useState([]);
@@ -15,7 +16,7 @@ function Users() {
 
   const getUsers = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/users');
+      const response = await axios.get('http://localhost:5000/user');
       setUsers(response.data);
     } catch (error) {
       console.error('Error fetching user data:', error);
@@ -24,7 +25,7 @@ function Users() {
 
   const getUserById = async (id) => {
     try {
-      const response = await axios.get(`http://localhost:5000/users/${id}`);
+      const response = await axios.get(`http://localhost:5000/user/${id}`);
       const userData = response.data;
       setSelectedUser(userData);
       setModalOpen(true);
@@ -39,7 +40,7 @@ function Users() {
 
   const deleteUser = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/users/${id}`);
+      await axios.delete(`http://localhost:5000/user/${id}`);
       getUsers();
     } catch (error) {
       console.log(error);
@@ -52,18 +53,11 @@ function Users() {
   };
 
   return (
-    <div className="p-4 sm:ml-64 " id="Dashboard">
-      <div className="p-4  rounded-lg dark:border-gray-700 mt-14">
+    <>
+    <div  id="Dashboard">
+      <div className="p-4 mt-14">
         <div className="grid justify-items-stretch">
           <div className="justify-self-center">
-            <button
-              data-modal-target="ModalTambahDataUser"
-              data-modal-toggle="ModalTambahDataUser"
-              className="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 my-2"
-              type="button"
-            >
-              Tambah Data User
-            </button>
 
             <AddUser />
 
@@ -75,24 +69,36 @@ function Users() {
               />
             )}
 
-            <table className="table">
+            <table>
               <thead>
-                <tr>
-                  <th>No</th>
-                  <th>Name</th>
-                  <th>Email</th>
-                  <th>Gender</th>
-                  <th>Actions</th>
+                <tr >
+                  <th className="border-2" >No</th>
+                  <th className="border-2"
+                   style={{ 
+                    width: "200px"
+                  }}
+                  >Name</th>
+                  <th className="border-2"
+                   style={{ 
+                    width: "300px"
+                  }}
+                  >Email</th>
+                  <th className="border-2"
+                  style={{ 
+                    width: "100px"
+                  }}
+                  >Gender</th>
+                  <th className="border-2">Actions</th>
                 </tr>
               </thead>
               <tbody>
                 {users.map((user, index) => (
                   <tr key={user.id}>
-                    <td>{index + 1}</td>
-                    <td>{user.name}</td>
-                    <td>{user.email}</td>
-                    <td>{user.gender}</td>
-                    <td>
+                    <td className="border-2">{index + 1}</td>
+                    <td className="border-2">{user.name}</td>
+                    <td className="border-2">{user.email}</td>
+                    <td className="border-2">{user.gender}</td>
+                    <td className="border-2">
                       <button
                         data-modal-target="ModalEditDataUsers"
                         data-modal-toggle="ModalEditDataUser"
@@ -104,7 +110,7 @@ function Users() {
                       </button>
                       <button
                         type="button"
-                        className="btn bg-red-500 text-white"
+                        className="block text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 my-2"
                         value="Delete"
                         placeholder="Delete"
                         onClick={() => deleteUser(user.id)}
@@ -120,6 +126,7 @@ function Users() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
