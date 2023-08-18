@@ -7,13 +7,17 @@ function AddUser() {
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
+    const [no_hp, setNoHp] = useState("");
+    const [birthdate, setBirthdate] = useState("");
+    const [negara, setNegara] = useState("");
+    const [domisili, setDomisili] = useState("");
     const [gender, setGender] = useState("Male");
     const navigate = useNavigate();
 
     const saveUsers = async (e) => {
         try {
           await axios.post('http://localhost:5000/user',
-            { name, email, gender });
+            { name, email, no_hp, birthdate, negara, domisili, gender });
           navigate("/");
         }
         catch (error) {
@@ -39,6 +43,18 @@ function AddUser() {
                                 </div>
                                 <div className='field mb-2'>
                                     <input type="text" placeholder="Email" className="input input-bordered input-success w-full max-w-mix" value={email} onChange={(e) => setEmail(e.target.value)} />
+                                </div>
+                                <div className='field mb-2'>
+                                    <input type="text" placeholder="No Hp" className="input input-bordered input-success w-full max-w-mix" value={no_hp} onChange={(e) => setNoHp(e.target.value)} />
+                                </div>
+                                <div className='field mb-2'>
+                                    <input type="text" placeholder="Tanggal Lahir" className="input input-bordered input-success w-full max-w-mix" value={birthdate} onChange={(e) => setBirthdate(e.target.value)} />
+                                </div>
+                                <div className='field mb-2'>
+                                    <input type="text" placeholder="Negara" className="input input-bordered input-success w-full max-w-mix" value={negara} onChange={(e) => setNegara(e.target.value)} />
+                                </div>
+                                <div className='field mb-2'>
+                                    <input type="text" placeholder="Domisili" className="input input-bordered input-success w-full max-w-mix" value={domisili} onChange={(e) => setDomisili(e.target.value)} />
                                 </div>
                                 <div className='field mb-2'>
                                     <label>Gender</label>

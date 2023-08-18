@@ -39,7 +39,7 @@ DELETE  http://localhost:5000/logout
 
 
 
-
+http://localhost:5000/user
 
 
 
@@ -54,7 +54,7 @@ POST http://localhost:5000/user
 Content-Type: application/json
 
 {
-"name": "Nakano", "email": "nakano@gmail.com", "gender": "Male"
+"name": "Nakano", "email": "nakano@gmail.com", "negara": "indonesia", "no_hp": "083147148374", "birthdate": "11-09-2023", "domisili": "kendal", "gender": "Male"
 }
 
 ###
@@ -62,7 +62,7 @@ PATCH http://localhost:5000/user/21
 Content-Type: application/json
 
 {
-"name": "Miku", "email": "miku@gmail.com", "gender": "Male"
+"name": "Miku", "email": "nakano@gmail.com", "negara": "Malaysia", "no_hp": "083147148374", "birthdate": "11-09-2022", "domisili": "batam", "gender": "Male"
 }
 
 ###

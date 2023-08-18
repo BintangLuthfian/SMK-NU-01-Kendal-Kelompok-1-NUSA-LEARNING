@@ -45,6 +45,15 @@ const Register = () => {
   return (
     <div className="form">
       <form onSubmit={handleSubmit}>
+      <h1
+      style={{
+        marginBottom: "10px",
+        color: "#df1a35",
+        fontWeight: "bold",
+        fontSize: "35px",
+       
+      }}
+      >Daftar Akun Baru</h1>
         <p>Nama Lengkap</p>
         <input
           type="text"

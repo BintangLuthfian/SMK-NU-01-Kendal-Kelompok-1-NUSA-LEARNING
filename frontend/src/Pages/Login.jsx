@@ -4,7 +4,7 @@ import GoogleButton from "react-google-button";
 import Toast from "../components/Toast";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import getGoogleOAuthURL from "../helpers/getGoogleUrl";
 import { BaseUrl } from "../constants/BaseUrl";
 import getFacebookOAuthURL from "../helpers/getFacebookUrl";
@@ -34,13 +34,46 @@ const Login = () => {
   };
   return (
     <div className="form" onSubmit={handleSubmit}>
+      
       <form action="">
+        <div className="log"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignitems: "flex-start"
+        }}
+        >
+      <h1
+      style={{
+        marginBottom: "10px",
+        color: "#df1a35",
+        fontWeight: "bold",
+        fontSize: "35px",
+       
+      }}
+      >Login</h1>
+       <Link to="/register" style={{ textDecoration: "none" }}>
+      <p
+      style={{
+       top: "50px",
+       margin: "10px",
+       position: "absolute",
+       right: "450px",
+       color: "#df1a35",
+       fontSize: "20px",
+      }}
+      >Daftar Akun Baru</p>
+      </Link>
+      </div>
+      <br />
+        <p>Email</p>
         <input
           type="text"
           placeholder="username / email"
           value={username}
           onChange={event => setUsername(event.target.value)}
         />
+        <p>Password</p>
         <input
           type="password"
           placeholder="password"
@@ -60,6 +93,11 @@ const Login = () => {
         <a href={getFacebookOAuthURL(BaseUrl.FACEBOOK_LOGIN_REDIRECT)}>
           Facebook
         </a>
+
+        <div className="other">
+          <hr />
+        </div>
+
       </form>
     </div>
   );

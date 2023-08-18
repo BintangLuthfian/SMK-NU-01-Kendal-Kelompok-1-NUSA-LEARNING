@@ -6,7 +6,7 @@
 }
 
 form {
-  width: 345px;
+  width: 500px;
   height: auto;
   background-color: white;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
@@ -53,4 +53,10 @@ form button {
 
 .other hr {
   width: 100%;
+}
+
+p {
+  color: #df1a35;
+  font-Size: 18px;
+
 }

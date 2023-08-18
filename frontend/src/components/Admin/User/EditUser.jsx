@@ -4,12 +4,19 @@ import axios from 'axios';
 function EditUser({ isOpen, closeModal, user }) {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
+    const [no_hp, setNoHp] = useState('');
+    const [birthdate, setBirthdate] = useState('');
+    const [Negara, setNegara] = useState('');
+    const [domisili, setDomisili] = useState('');
     const [gender, setGender] = useState('');
 
     useEffect(() => {
         if (isOpen && user) {
             setName(user.name);
             setEmail(user.email);
+            setNoHp(user.no_hp);
+            setBirthdate(user.birthdate);
+            setDomisili(user.domisili);
             setGender(user.gender);
         }
     }, [isOpen, user]);
@@ -20,6 +27,22 @@ function EditUser({ isOpen, closeModal, user }) {
 
     const handleEmailChange = (e) => {
         setEmail(e.target.value);
+    };
+
+    const handleNoHpChange = (e) => {
+        setNoHp(e.target.value);
+    };
+
+    const handleBirthdateChange = (e) => {
+        setBirthdate(e.target.value);
+    };
+
+    const handleNegaraChange = (e) => {
+        setNegara(e.target.value);
+    };
+
+    const handleDomisiliChange = (e) => {
+        setDomisili(e.target.value);
     };
 
     const handleGenderChange = (e) => {
@@ -33,6 +56,10 @@ function EditUser({ isOpen, closeModal, user }) {
             const updatedUser = {
                 name,
                 email,
+                no_hp,
+                birthdate,
+                negara,
+                domisili,
                 gender,
             };
 
@@ -72,6 +99,42 @@ function EditUser({ isOpen, closeModal, user }) {
                         className="input input-bordered input-success w-full max-w-mix"
                         value={email}
                         onChange={handleEmailChange}
+                    />
+                </div>
+                <div className="field mb-2">
+                    <input
+                        type="text"border
+                        placeholder="Email"
+                        className="input input-bordered input-success w-full max-w-mix"
+                        value={no_hp}
+                        onChange={handleNoHpChange}
+                    />
+                </div>
+                <div className="field mb-2">
+                    <input
+                        type="text"border
+                        placeholder="Email"
+                        className="input input-bordered input-success w-full max-w-mix"
+                        value={birthdate}
+                        onChange={handleBirthdateChange}
+                    />
+                </div>
+                <div className="field mb-2">
+                    <input
+                        type="text"border
+                        placeholder="Email"
+                        className="input input-bordered input-success w-full max-w-mix"
+                        value={negara}
+                        onChange={handleNegaraChange}
+                    />
+                </div>
+                <div className="field mb-2">
+                    <input
+                        type="text"border
+                        placeholder="Email"
+                        className="input input-bordered input-success w-full max-w-mix"
+                        value={domisili}
+                        onChange={handleDomisiliChange}
                     />
                 </div>
                 <div className="field mb-2">
