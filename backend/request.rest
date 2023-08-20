@@ -8,6 +8,11 @@ Content-Type: application/json
 {
     "name": "B Luthfian",
     "email": "email@gmail.com",
+    "no_hp": "0831-4714-8374",
+    "birthdate": "16-09-2023",
+    "negara": "Indonesia",
+    "domisili": "Kendal",
+    "gender": "laki-laki",
     "password": "123456",
     "confPassword": "123456"
 }

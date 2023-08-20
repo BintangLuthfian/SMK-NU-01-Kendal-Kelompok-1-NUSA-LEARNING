@@ -16,7 +16,7 @@ export const getUsers = async(req, res) => {
 
 
 export const Register = async(req, res) =>{
-    const{ name, email, password, confPassword } = req.body;
+    const{ name, email, no_hp, birthdate, negara, domisili, gender, password, confPassword } = req.body;
     if (password !== confPassword) return res.status(400).json({msg: "password dan confirm password tidak cocok"});
     const salt = await bcrypt.genSalt();
     const hastpassword = await bcrypt.hash(password, salt); 
@@ -24,6 +24,11 @@ export const Register = async(req, res) =>{
         await Users.create({
             name: name,
             email: email,
+            no_hp: no_hp,
+            birthdate: birthdate,
+            negara: negara,
+            domisili: domisili,
+            gender: gender,
             password: hastpassword,
     })
     res.json({msg: "Register Berhasil"});

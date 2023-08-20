@@ -45,30 +45,30 @@ import 'flowbite';
 
                     // users
 
-// import Home from "./Pages/Home";
-// import Dashboard from "./Pages/Dashboard";
-// import KategoriPelatihan from './Pages/KategoriPelatihan';
-// import Login from './Pages/Login';
-// import Register from './Pages/Register';
-// import Ban from './Pages/Pembayaran/Bank';
-// import Data from './Pages/Pembayaran/Data';
-// import Ewall from "./Pages/Pembayaran/Ewall";
-// import Cred from "./Pages/Pembayaran/Cred";
+import Home from "./Pages/Home";
+import Dashboard from "./Pages/Dashboard";
+import KategoriPelatihan from './Pages/KategoriPelatihan';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
+import Ban from './Pages/Pembayaran/Bank';
+import Data from './Pages/Pembayaran/Data';
+import Ewall from "./Pages/Pembayaran/Ewall";
+import Cred from "./Pages/Pembayaran/Cred";
 
                     // admin 
 
 
-import Users from './components/Admin/User/Users';
-import AddUser from './components/Admin/User/AddUser';
-import EditUser from './components/Admin/User/EditUser';
-import NavSideBar from "./components/Admin/Sidebar";
-import Dashboard from './components/Admin/Dashboard/Dashboard';
-import PelatihanSaya from './components/Admin/PelatihanSaya/PelatihanSaya';
-import Materi from './components/Admin/PelatihanSaya/Materi';
-import Detail from './components/Admin/PelatihanSaya/Detail';
-import RiwayatKuis from './components/Admin/PelatihanSaya/RiwayatKuis';
-import Sertifikat from './components/Admin/Sertifikat/Sertifikat';
-import PaymentHistory from './components/Admin/PaymentHistory/PaymentHistory';
+// import Users from './components/Admin/User/Users';
+// import AddUser from './components/Admin/User/AddUser';
+// import EditUser from './components/Admin/User/EditUser';
+// import NavSideBar from "./components/Admin/Sidebar";
+// import Dashboard from './components/Admin/Dashboard/Dashboard';
+// import PelatihanSaya from './components/Admin/PelatihanSaya/PelatihanSaya';
+// import Materi from './components/Admin/PelatihanSaya/Materi';
+// import Detail from './components/Admin/PelatihanSaya/Detail';
+// import RiwayatKuis from './components/Admin/PelatihanSaya/RiwayatKuis';
+// import Sertifikat from './components/Admin/Sertifikat/Sertifikat';
+// import PaymentHistory from './components/Admin/PaymentHistory/PaymentHistory';
 
 function App() {
   return (
@@ -77,7 +77,7 @@ function App() {
       
          {/* User */}
 
-       {/* <Route path="/" element={<Home />} />
+       <Route path="/" element={<Home />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
@@ -85,11 +85,11 @@ function App() {
       <Route path="/hal-pembayaran" element={<Data />} />
       <Route path="/bank" element={<Ban />} />
       <Route path="/E-wallet" element={<Ewall />} />
-      <Route path="/credit-card" element={<Cred />} /> */}
+      <Route path="/credit-card" element={<Cred />} />
 
          {/* admin */}
        
-      <Route path="/admin/*" element={<NavSideBar />} />
+      {/* <Route path="/admin/*" element={<NavSideBar />} />
        </Routes>
        <Routes>
       <Route path='/admin/Dashboard' element={<Dashboard />} />
@@ -99,7 +99,7 @@ function App() {
       <Route path='/admin/Dashboard/Kuis' element={<RiwayatKuis />} />
       <Route path='/admin/Sertifikat' element={<Sertifikat />} />
       <Route path='/admin/PaymentHistory' element={<PaymentHistory />} />
-      <Route path='/admin/Users' element={<Users />} />
+      <Route path='/admin/Users' element={<Users />} /> */}
       
       </Routes>
 

@@ -13,7 +13,7 @@ const app = express();
 try {
         await db.authenticate();
         console.log ('data base terhubung...');
-        await db.sync()
+        // await db.sync()
 } catch (error) {
     console.error ('error');
 }
