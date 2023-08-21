@@ -45,13 +45,14 @@ import './App.css';
 import Home from "./Pages/Home";
 import Dashboard from "./Pages/Dashboard";
 import KategoriPelatihan from './Pages/KategoriPelatihan';
-
+import PusatPengetahuan from "./Pages/PusatPengetahuan/PusatPengetahuan";
 import Login from './Pages/Login';
 import Register from './Pages/Register';
 import Ban from './Pages/Bank';
 import Data from './Pages/Data';
 import Ewall from "./Pages/Ewall";
 import Cred from "./Pages/Cred";
+import Payment from "./Pages/PaymentHistory/Payment";
 
 
 
@@ -71,6 +72,8 @@ function App() {
        <Route path="/bank" element={<Ban />} />
        <Route path="/E-wallet" element={<Ewall />} />
        <Route path="/credit-card" element={<Cred />} />
+       <Route path="/pusat-pengetahuan" element={<PusatPengetahuan />} />
+       <Route path="/payment-history" element={<Payment />} />
     </Routes>
     </BrowserRouter>
   );
