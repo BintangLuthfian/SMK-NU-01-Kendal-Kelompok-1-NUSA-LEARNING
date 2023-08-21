@@ -54,6 +54,8 @@ import Ban from './Pages/Pembayaran/Bank';
 import Data from './Pages/Pembayaran/Data';
 import Ewall from "./Pages/Pembayaran/Ewall";
 import Cred from "./Pages/Pembayaran/Cred";
+import PusatPengetahuan2 from "./Pages/PusatPengetahuan2/PusatPengetahuan2";
+import Payment from "./Pages/PaymentHistory/Payment";
 
                     // admin 
 
@@ -86,6 +88,8 @@ function App() {
       <Route path="/bank" element={<Ban />} />
       <Route path="/E-wallet" element={<Ewall />} />
       <Route path="/credit-card" element={<Cred />} />
+      <Route path="/pusat-pengetahuan" element={<PusatPengetahuan2 />} />
+      <Route path="/payment-history" element={<Payment />} />
 
          {/* admin */}
        
