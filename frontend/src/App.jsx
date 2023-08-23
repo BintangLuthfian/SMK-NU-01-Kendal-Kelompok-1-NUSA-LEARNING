@@ -56,6 +56,7 @@ import Ewall from "./Pages/Pembayaran/Ewall";
 import Cred from "./Pages/Pembayaran/Cred";
 import PusatPengetahuan2 from "./Pages/PusatPengetahuan2/PusatPengetahuan2";
 import Payment from "./Pages/PaymentHistory/Payment";
+import Profil from "./Pages/Profil";
 
                     // admin 
 
@@ -90,12 +91,16 @@ function App() {
       <Route path="/credit-card" element={<Cred />} />
       <Route path="/pusat-pengetahuan" element={<PusatPengetahuan2 />} />
       <Route path="/payment-history" element={<Payment />} />
+      <Route path="/profil" element={<Profil />} />
 
          {/* admin */}
-       
-      {/* <Route path="/admin/*" element={<NavSideBar />} />
-       </Routes>
+        
+       {/* <Route path="/admin/*" element={<NavSideBar />} />
+         </Routes>
+
+
        <Routes>
+
       <Route path='/admin/Dashboard' element={<Dashboard />} />
       <Route path='/admin/Pelatihan' element={<PelatihanSaya />} />
       <Route path='/admin/Pelatihan/Materi' element={<Materi />} />
@@ -103,10 +108,13 @@ function App() {
       <Route path='/admin/Dashboard/Kuis' element={<RiwayatKuis />} />
       <Route path='/admin/Sertifikat' element={<Sertifikat />} />
       <Route path='/admin/PaymentHistory' element={<PaymentHistory />} />
-      <Route path='/admin/Users' element={<Users />} /> */}
-      
       </Routes>
 
+            <Routes>
+              <Route path='/admin/Users' element={<Users />} /> */}
+
+
+      </Routes>
     </BrowserRouter>
   );
 }
