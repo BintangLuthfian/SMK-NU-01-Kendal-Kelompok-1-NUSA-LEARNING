@@ -25,12 +25,8 @@ h1 {
     background-color: rgba(122,169,189,0.5);
 }
 
-header {
-    text-align: center;
-    font-size: 50px ;
-    font-family: Times New Roman Georgia, serif;
-}
-#input1 {
+
+.input1 {
     background-color: rgba(122,169,189,0);
     border-bottom-style: hidden;
     border-top-style: hidden;
@@ -39,7 +35,7 @@ header {
     outline: none; 
     font-size: 15px
 }
-#input2 {
+.input2 {
     background-color: rgba(122,169,189,0);
     border-bottom-style: hidden;
     border-top-style: hidden;
@@ -47,7 +43,7 @@ header {
     border-right-style: hidden;
     outline: none;
 }
- #input3 {
+.input3 {
     background-color: rgba(122,169,189,0);
     border-bottom-style: hidden;
     border-top-style: hidden;
@@ -55,7 +51,7 @@ header {
     border-right-style: hidden;
     outline: none;
 }
-#input4 {
+.input4 {
     background-color: rgba(122,169,189,0);
     border-bottom-style: hidden;
     border-top-style: hidden;
@@ -63,7 +59,7 @@ header {
     border-right-style: hidden;
     outline: none;
 }
-#input5 {
+.input5 {
     background-color: rgba(122,169,189,0);
     border-bottom-style: hidden;
     border-top-style: hidden;
@@ -71,16 +67,16 @@ header {
     border-right-style: hidden;
     outline: none;
 }
-#input6 {
+.input6 {
     opacity: 70%
 }
-#input7 {
+.input7 {
     opacity: 70%
 }
-#input8 {
+.input8 {
     opacity: 70%
 }
-#height{
+.height{
 width: 40%;
 height: 30%;      
 }

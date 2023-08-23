@@ -28,9 +28,9 @@ const Profil = () => {
                             <td>
                                 <form action=""
                                 style={{
-                                    color: "white"
+                                    color: "red"
                                 }}>
-                                     <input id="input1" type="text" name="nama" placeholder="Nama" /><br />
+                                     <input className="input1" type="text" name="nama" placeholder="Nama" /><br />
                                         <hr className="color-black" />
                                         <input id="input2" type="email" name="email" value="" placeholder="Email" /><br/>
                                         <hr className="color-black" /><br/>
