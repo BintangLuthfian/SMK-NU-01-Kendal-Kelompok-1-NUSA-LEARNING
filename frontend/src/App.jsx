@@ -2,7 +2,7 @@
 
 // import './App.css';
 // // import Home from "./Pages/Home";
-// import AdminDashboard from './Pages/Admin Page/AdminDashboard';
+import AdminDashboard from './Pages/Admin Page/AdminDashboard';
 // // import KategoriPelatihan from './Pages/KategoriPelatihan';
 // // import Login from './Pages/Login';
 // // import Register from './Pages/Register';
@@ -43,22 +43,22 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import 'flowbite';
 
-                    // users
+// users
 
-import Home from "./Pages/Home";
-import Dashboard from "./Pages/Dashboard";
-import KategoriPelatihan from './Pages/KategoriPelatihan';
-import Login from './Pages/Login';
-import Register from './Pages/Register';
-import Ban from './Pages/Pembayaran/Bank';
-import Data from './Pages/Pembayaran/Data';
-import Ewall from "./Pages/Pembayaran/Ewall";
-import Cred from "./Pages/Pembayaran/Cred";
-import PusatPengetahuan2 from "./Pages/PusatPengetahuan2/PusatPengetahuan2";
-import Payment from "./Pages/PaymentHistory/Payment";
-import Profil from "./Pages/Profil";
+// import Home from "./Pages/Home";
+// import Dashboard from "./Pages/Dashboard";
+// import KategoriPelatihan from './Pages/KategoriPelatihan';
+// import Login from './Pages/Login';
+// import Register from './Pages/Register';
+// import Ban from './Pages/Pembayaran/Bank';
+// import Data from './Pages/Pembayaran/Data';
+// import Ewall from "./Pages/Pembayaran/Ewall";
+// import Cred from "./Pages/Pembayaran/Cred";
+// import PusatPengetahuan2 from "./Pages/PusatPengetahuan2/PusatPengetahuan2";
+// import Payment from "./Pages/PaymentHistory/Payment";
+// import Profil from "./Pages/Profil";
 
-                    // admin 
+// admin 
 
 
 // import Users from './components/Admin/User/Users';
@@ -75,47 +75,50 @@ import Profil from "./Pages/Profil";
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-      
-         {/* User */}
 
-       <Route path="/" element={<Home />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Register />} />
-      <Route path="/kategori" element={<KategoriPelatihan />} />
-      <Route path="/hal-pembayaran" element={<Data />} />
-      <Route path="/bank" element={<Ban />} />
-      <Route path="/E-wallet" element={<Ewall />} />
-      <Route path="/credit-card" element={<Cred />} />
-      <Route path="/pusat-pengetahuan" element={<PusatPengetahuan2 />} />
-      <Route path="/payment-history" element={<Payment />} />
-      <Route path="/profil" element={<Profil />} />
+    <AdminDashboard />
 
-         {/* admin */}
-        
-       {/* <Route path="/admin/*" element={<NavSideBar />} />
-         </Routes>
+    // <BrowserRouter>
+    // <Routes>
 
+    //      {/* User */}
 
-       <Routes>
+    //    <Route path="/" element={<Home />} />
+    //   <Route path="/dashboard" element={<Dashboard />} />
+    //   <Route path="/login" element={<Login />} />
+    //   <Route path="/register" element={<Register />} />
+    //   <Route path="/kategori" element={<KategoriPelatihan />} />
+    //   <Route path="/hal-pembayaran" element={<Data />} />
+    //   <Route path="/bank" element={<Ban />} />
+    //   <Route path="/E-wallet" element={<Ewall />} />
+    //   <Route path="/credit-card" element={<Cred />} />
+    //   <Route path="/pusat-pengetahuan" element={<PusatPengetahuan2 />} />
+    //   <Route path="/payment-history" element={<Payment />} />
+    //   <Route path="/profil" element={<Profil />} />
 
-      <Route path='/admin/Dashboard' element={<Dashboard />} />
-      <Route path='/admin/Pelatihan' element={<PelatihanSaya />} />
-      <Route path='/admin/Pelatihan/Materi' element={<Materi />} />
-      <Route path='/admin/Pelatihan/Detail' element={<Detail />} />
-      <Route path='/admin/Dashboard/Kuis' element={<RiwayatKuis />} />
-      <Route path='/admin/Sertifikat' element={<Sertifikat />} />
-      <Route path='/admin/PaymentHistory' element={<PaymentHistory />} />
-      </Routes>
+    //      {/* admin */}
 
-            <Routes>
-              <Route path='/admin/Users' element={<Users />} /> */}
+    //    {/* <Route path="/admin/*" element={<NavSideBar />} />
+    //      </Routes>
 
 
-      </Routes>
-    </BrowserRouter>
+    //    <Routes>
+
+    //   <Route path='/admin/Dashboard' element={<Dashboard />} />
+    //   <Route path='/admin/Pelatihan' element={<PelatihanSaya />} />
+    //   <Route path='/admin/Pelatihan/Materi' element={<Materi />} />
+    //   <Route path='/admin/Pelatihan/Detail' element={<Detail />} />
+    //   <Route path='/admin/Dashboard/Kuis' element={<RiwayatKuis />} />
+    //   <Route path='/admin/Sertifikat' element={<Sertifikat />} />
+    //   <Route path='/admin/PaymentHistory' element={<PaymentHistory />} />
+    //   </Routes>
+
+    //         <Routes>
+    //           <Route path='/admin/Users' element={<Users />} /> */}
+
+
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
 
