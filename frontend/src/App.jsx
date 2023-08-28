@@ -56,6 +56,7 @@ import Ewall from "./Pages/Pembayaran/Ewall";
 import Cred from "./Pages/Pembayaran/Cred";
 import PusatPengetahuan2 from "./Pages/PusatPengetahuan2/PusatPengetahuan2";
 import Payment from "./Pages/PaymentHistory/Payment";
+import Co from "./Pages/Co";
 
                     // admin 
 
@@ -90,6 +91,7 @@ function App() {
       <Route path="/credit-card" element={<Cred />} />
       <Route path="/pusat-pengetahuan" element={<PusatPengetahuan2 />} />
       <Route path="/payment-history" element={<Payment />} />
+      <Route path="/coba" element={<Co />} />
 
          {/* admin */}
        
