@@ -8,7 +8,7 @@ function SideBar() {
         <>
             <Navbar />
            
-            <aside id="logo-sidebar" className="fixed top-0 left-0 z-40 w-64 h-[460px] pt-[64px] transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+            <aside id="logo-sidebar" className="fixed top-0 left-0 z-40 w-64 h-[502px] pt-[64px] transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
                 <div dir="ltr" className="h-full pb-4 overflow-y-auto bg-[#EC2028]">
                     <div className="flex items-center pl-8 mt-4">
                         <img src="./assets/profileUser.png" alt="" className="h-[58px]" />

@@ -52,7 +52,7 @@ function Pagination({ currentPage, totalPages, onPageChange }) {
 
   return (
 
-    <ul className="flex items-center -space-x-px h-10 text-base">
+    <ul className="flex items-center -space-x-px h-10 text-base mt-10">
       <li>
         <button
           onClick={() => handlePageChange(currentPage - 1)}

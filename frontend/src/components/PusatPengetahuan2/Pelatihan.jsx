@@ -1,6 +1,18 @@
-const Pelatihan = () => {
+
+    
+function Pelatihan({ visibleItems }) {
+
+    const itemsPerPage = 1;
+    const items = Array.from({ length: 28 }, (_, index) => `${index + 1}`);
+    const startIndex = (visibleItems - 1) * itemsPerPage;
+    const visibleItemsData = items.slice(startIndex, startIndex + itemsPerPage);
+
     return (
-        <div className=" justify-start ml-[290px] grid grid-cols-3 ">
+        <div>
+        {visibleItemsData.map((item, index) => (
+            <div key={index} id={`Pelatihan-${startIndex + index}`} className=''>
+            <div>{item}</div>
+        <div className="justify-start ml-[290px] grid grid-cols-3">
             <div className="px-4">
                 <div className="btn border border-black rounded-none bg-white grid hover:bg-white text-black w-[317px] h-[288px]">
                     <div className="bg-yellow-400 border border-black flex place-self-stretch justify-center items-center w-[317px] h-[135px]">
@@ -307,6 +319,10 @@ const Pelatihan = () => {
                 </div>
             </div>
         </div>
+        </div>
+        ))}
+         </div>
+
     );
 }
 

@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useState } from 'react';
+import Pelatihan from './Pelatihan';
 import { BiChevronDown } from "react-icons/bi";
+import Nomer from './Nomer';
 
 const Start = () => {
+
+     const [visibleItems, setVisibleItems] = useState(1);
+    const itemsPerPage = 5; // Set the desired number of items per page
+
+    // Sample data for the content items
+    const items = Array.from({ length: 28 }, (_, index) => `Item ${index + 1}`);
+
+    // Calculate total pages based on the number of items and items per page
+    const totalPages = Math.ceil(items.length / itemsPerPage);
+
+    const handlePageChange = (newPage) => {
+        setVisibleItems(newPage);
+    };
+
+
     return (
         <>
         <div className="pt-11 pl-[280px]">
@@ -18,7 +35,24 @@ const Start = () => {
                 </div>
             </div>
         </div>
-        <br />
+        <div className="py-3">
+
+                        <Pelatihan
+                            visibleItems={visibleItems}
+                            itemsPerPage={itemsPerPage}
+                            items={items}
+                        />
+                        <br />
+                        <nav id="Pagination" className='absolute right-[220px] bottom-auto'>
+                            <Nomer
+                                currentPage={visibleItems}
+                                totalPages={totalPages}
+                                onPageChange={handlePageChange}
+                            />
+                        </nav>
+
+                    </div>
+        <br /><br /><br /><br /><br /><br /><br /><br />
         </>
     );
 }

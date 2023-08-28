@@ -55,25 +55,25 @@ import 'flowbite';
 // import Data from './Pages/Pembayaran/Data';
 // import Ewall from "./Pages/Pembayaran/Ewall";
 // import Cred from "./Pages/Pembayaran/Cred";
-// import PusatPengetahuan2 from "./Pages/PusatPengetahuan2/PusatPengetahuan2";
-// import Payment from "./Pages/PaymentHistory/Payment";
+import PusatPengetahuan2 from "./Pages/PusatPengetahuan2/PusatPengetahuan2";
+import Payment from "./Pages/PaymentHistory/Payment";
 // import Profil from "./Pages/Profil";
 // import Co from "./Pages/Co";
 
                     // admin 
 
 
-import Users from './components/Admin/User/Users';
-// import AddUser from './components/Admin/User/AddUser';
-// import EditUser from './components/Admin/User/EditUser';
-import NavSideBar from "./components/Admin/Sidebar";
-import Dashboard from './components/Admin/Dashboard/Dashboard';
-import PelatihanSaya from './components/Admin/PelatihanSaya/PelatihanSaya';
-import Materi from './components/Admin/PelatihanSaya/Materi';
-import Detail from './components/Admin/PelatihanSaya/Detail';
-import RiwayatKuis from './components/Admin/PelatihanSaya/RiwayatKuis';
-import Sertifikat from './components/Admin/Sertifikat/Sertifikat';
-import PaymentHistory from './components/Admin/PaymentHistory/PaymentHistory';
+// import Users from './components/Admin/User/Users';
+// // import AddUser from './components/Admin/User/AddUser';
+// // import EditUser from './components/Admin/User/EditUser';
+// import NavSideBar from "./components/Admin/Sidebar";
+// import Dashboard from './components/Admin/Dashboard/Dashboard';
+// import PelatihanSaya from './components/Admin/PelatihanSaya/PelatihanSaya';
+// import Materi from './components/Admin/PelatihanSaya/Materi';
+// import Detail from './components/Admin/PelatihanSaya/Detail';
+// import RiwayatKuis from './components/Admin/PelatihanSaya/RiwayatKuis';
+// import Sertifikat from './components/Admin/Sertifikat/Sertifikat';
+// import PaymentHistory from './components/Admin/PaymentHistory/PaymentHistory';
 
 
 function App() {
@@ -91,21 +91,20 @@ function App() {
       <Route path="/hal-pembayaran" element={<Data />} />
       <Route path="/bank" element={<Ban />} />
       <Route path="/E-wallet" element={<Ewall />} />
-      <Route path="/credit-card" element={<Cred />} />
+      <Route path="/credit-card" element={<Cred />} /> */}
       <Route path="/pusat-pengetahuan" element={<PusatPengetahuan2 />} />
       <Route path="/payment-history" element={<Payment />} />
-      <Route path="/profil" element={<Profil />} /> */}
-      {/* <Route path="/coba" element={<Co />} /> */}
+      {/* <Route path="/profil" element={<Profil />} /> 
+      <Route path="/coba" element={<Co />} /> */}
 
 
          {/* admin */}
         
-       <Route path="/admin/*" element={<NavSideBar />} />
+       {/* <Route path="/admin/*" element={<NavSideBar />} />
          </Routes>
 
 
        <Routes>
-
       <Route path='/admin/Dashboard' element={<Dashboard />} />
       <Route path='/admin/Pelatihan' element={<PelatihanSaya />} />
       <Route path='/admin/Pelatihan/Materi' element={<Materi />} />
@@ -116,7 +115,7 @@ function App() {
       </Routes>
 
             <Routes>
-              <Route path='/admin/Users' element={<Users />} />
+              <Route path='/admin/Users' element={<Users />} /> */}
 
 
       </Routes>

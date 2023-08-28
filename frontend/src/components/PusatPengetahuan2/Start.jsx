@@ -1,5 +1,24 @@
+import React, { useState } from 'react';
+import Pelatihan from './Pelatihan';
+import Nomer from './Nomer';
+
 const Start = () => {
+
+    const [visibleItems, setVisibleItems] = useState(1);
+    const itemsPerPage = 5; // Set the desired number of items per page
+
+    // Sample data for the content items
+    const items = Array.from({ length: 28 }, (_, index) => `Item ${index + 1}`);
+
+    // Calculate total pages based on the number of items and items per page
+    const totalPages = Math.ceil(items.length / itemsPerPage);
+
+    const handlePageChange = (newPage) => {
+        setVisibleItems(newPage);
+    };
+
     return (
+        <>
         <div className="footer pt-20 py-5 px-[62px] text-neutral-content border-black border-t-2">
                 {/* <div className="text-white flex justify-end"> */}
                 <div className="flex justify-start ml-[220px]">
@@ -12,26 +31,32 @@ const Start = () => {
                 </div>
             </div>
 
+            <div className="py-3">
+
+                        <Pelatihan
+                            visibleItems={visibleItems}
+                            itemsPerPage={itemsPerPage}
+                            items={items}
+                        />
+                        <br />
+                        <nav id="Pagination" className='absolute right-[220px] bottom-auto'>
+                            <Nomer
+                                currentPage={visibleItems}
+                                totalPages={totalPages}
+                                onPageChange={handlePageChange}
+                            />
+                        </nav>
+
+                    </div>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+
+        </>
+
     )
 }
 
 export default Start;
 
-// const Start = () => {
-//     return (
-//         <div className="footer py-5 px-[62px] bg-gray-100 text-neutral-content border-black border-t-2">
-//             <div className="text-white flex justify-end">
-//                 <div className="bg-[#EC2028] ml-[52px]">
-//                     <h1>Start</h1>
-//                 </div>
-//                 <div className="flex-grow"></div>
-//                 {/* ... */}
-//             </div>
-//         </div>
-//     );
-// }
-
-// export default Start;
 
 
 
