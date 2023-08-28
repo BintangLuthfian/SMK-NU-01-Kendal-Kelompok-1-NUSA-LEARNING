@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+
 function EditUser({ isOpen, closeModal, user }) {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [no_hp, setNoHp] = useState('');
     const [birthdate, setBirthdate] = useState('');
-    const [Negara, setNegara] = useState('');
+    const [negara, setNegara] = useState('');
     const [domisili, setDomisili] = useState('');
     const [gender, setGender] = useState('');
 
@@ -15,6 +16,7 @@ function EditUser({ isOpen, closeModal, user }) {
             setName(user.name);
             setEmail(user.email);
             setNoHp(user.no_hp);
+            setNegara(user.negara);
             setBirthdate(user.birthdate);
             setDomisili(user.domisili);
             setGender(user.gender);
@@ -79,8 +81,8 @@ function EditUser({ isOpen, closeModal, user }) {
     };
 
     return (
-        <div id="ModalEditDataUser">
-        <div >
+        <div className={`modal ${isOpen ? 'modal-open' : ''}`} id="ModalEditDataUser">
+        <div className="modal-box">
             <h2 >Edit User</h2>
             <form onSubmit={handleSubmit}>
                 <div className="field mb-2">
@@ -151,7 +153,7 @@ function EditUser({ isOpen, closeModal, user }) {
                     </div>
                 </div>
                 <div className="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
-                    <a href="datauser">
+                    <a href="/admin/Users">
                         <button className="btn btn-primary mt-2" type="submit">
                             Update
                         </button>

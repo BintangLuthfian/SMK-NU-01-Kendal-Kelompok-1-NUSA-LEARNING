@@ -12,7 +12,7 @@ import Sertifikat from '../../components/Admin/Sertifikat/Sertifikat';
 import PaymentHistory from '../../components/Admin/PaymentHistory/PaymentHistory';
 
 
-import Users from '../../components/Admin/User/Add';
+import Users from '../../components/Admin/User/Users';
 
 
 function AdminDashboard() {
