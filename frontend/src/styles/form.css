@@ -6,7 +6,7 @@
 }
 
 form {
-  width: 500px;
+  width: 650px;
   height: auto;
   background-color: white;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
@@ -56,7 +56,10 @@ form button {
 }
 
 p {
-  color: #df1a35;
   font-Size: 18px;
 
+}
+
+h2 {
+  color: aqua;
 }

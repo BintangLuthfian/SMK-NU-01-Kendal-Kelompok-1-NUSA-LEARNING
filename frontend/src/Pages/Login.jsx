@@ -68,7 +68,7 @@ const Login = () => {
           alignitems: "flex-start"
         }}
         >
-      <h1
+      <h2
       style={{
         marginBottom: "10px",
         color: "#df1a35",
@@ -76,7 +76,7 @@ const Login = () => {
         fontSize: "35px",
        
       }}
-      >Login</h1>
+      >Login</h2>
        <Link to="/register" style={{ textDecoration: "none" }}>
       <p
       style={{

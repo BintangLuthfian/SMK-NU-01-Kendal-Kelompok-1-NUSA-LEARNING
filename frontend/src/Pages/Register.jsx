@@ -85,7 +85,7 @@ import { useNavigate } from "react-router-dom";
     <div className="form">
       <form onSubmit={Register}>
       <p className='has-text-centered'>{msg}</p>
-      <h1
+      <h2
       style={{
         marginBottom: "10px",
         color: "#df1a35",
@@ -93,7 +93,7 @@ import { useNavigate } from "react-router-dom";
         fontSize: "35px",
        
       }}
-      >Daftar Akun Baru</h1>
+      >Daftar Akun Baru</h2>
         <p>Nama Lengkap</p>
         <input
           type="text"

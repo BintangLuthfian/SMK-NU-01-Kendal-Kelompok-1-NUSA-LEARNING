@@ -1,80 +1,65 @@
 import React from 'react'
 import "./profil.css";
-
+import { BiBorderRadius } from 'react-icons/bi';
 
 const Profil = () => {
   return (
-    <div className="box color-blue" >
-      <p>Daftar</p>
-      <hr style={{
-        color: "red"
-      }} />
+    <div className="box color-blue">
+      <h3
+      style={{
+        fontSize: "30px"
+      }}
+      >Akun</h3>
+      <p>Harap masukan informasi yang falid agar pembelajaran lebih mudah</p>
       <br />
-      <table className="table">
-         <tbody>
-            <table>
-                <tbody>
-                    <tr>
-                        <th>
-                            <td style={{
-                                    width: "500px"
-                                }}>
-                            <img src="./Sampul/avatar.jpg" alt="" />
-                            </td>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <td>
-                                <form action=""
-                                style={{
-                                    color: "red"
-                                }}>
-                                     <input className="input1" type="text" name="nama" placeholder="Nama" /><br />
-                                        <hr className="color-black" />
-                                        <input id="input2" type="email" name="email" value="" placeholder="Email" /><br/>
-                                        <hr className="color-black" /><br/>
-                                        <label>No HP</label><br/>
-                                        <input id="input3" type="number" name="hp" value="62" placeholder=""/><br/>
-                                        <hr className="color-black" />
-                                        <p>Jenis Kelamin</p>
-                                        <select name="select">
-                                            <option value="Laki-Laki "> Laki-Laki </option>
-                                            <option value="Laki-Laki "> Perempuan  </option>
-                                        </select>
-                                        <br />
-                                        <p>Status</p>
-                                        <select name="status">
-                                            <optgroup label="Guru Mapel">
-                                                <option value="Guru IPA">Guru IPA</option>
-                                                <option value="Guru IPS">Guru IPS</option>
-                                            </optgroup>
-                                            <optgroup label="Siswa">
-                                                <option value="Kelas X">Kelas X</option>
-                                                <option value="Kelas XI">Kelas XI</option>
-                                                <option value="Kelas XII">Kelas XII</option>
-                                            </optgroup>
-                                        </select>
-                                        <br/>
-                                        <p>Tanggal Lahir</p>
-                                        <input type="date" name="tgllahir"/>
-                                        <br/><br/>                                                                          
-                                        
-                                        <input id="input4" type="text" name="" value="" placeholder="Username"/><br/>
-                                        <hr className="color-black" />
-                                        <br/><br/>
-                                        <input id="input5" type="password" name="" value="" placeholder="Password"/><br/>
-                                        <hr className="color-black" />
-                                </form>
-                            </td>
-                        </th>
-                    </tr>
-                </tbody>
-            </table>
-         </tbody>
-      </table>
+
+      <div className='flex-container'>
+        <div className="profile-image-container">
+          <img src="./Sampul/avatar.jpg" alt="" style={{ width: "400px", height: "300px", marginLeft: "10px", marginTop: "10px", borderRadius: "50px" }} />
+          <p>Upload Foto</p>
+        </div>
+        <form action="" 
+          style={{
+            color: "red",
+           marginLeft: "50px",
+           marginTop: "10px",
+           marginBottom: "50px"
+          }}>
+            <p>nama Lengkap</p>
+            <input type="text" name="tgllahir" />
+          <hr className="color-black" />
+          <p>Alamat Email</p>
+          <input type="text" name="tgllahir" />
+          <hr className="color-black" />
+          <label>No HP</label>
+          <input type="text" name="tgllahir" />
+          <hr className="color-black" />
+          <p>Tanggal Lahir</p>
+          <input type="text" name="tgllahir" />
+
+          <p>Negara</p>
+          <input className="input1" type="text" name="nama" />
+          <p>Domisili</p>
+          <input type="text" name="tgllahir" />
+        </form>
+     </div>
+             <p style={{
+                border: "3px solid black",
+                BorderRadius: "50%",
+                marginLeft: "950px",
+                marginRight: "100px",
+                width: "150px",
+                marginTop: "10px",
+                textAlign: "center"
+            }}>Perbaruhi Profil</p>
+        
+      
+
+     
     </div>
   )
 }
 
 export default Profil
+
+

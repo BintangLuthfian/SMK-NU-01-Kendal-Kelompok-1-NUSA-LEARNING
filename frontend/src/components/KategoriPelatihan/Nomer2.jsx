@@ -65,7 +65,35 @@ function Nomer2() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
+                        <div className="px-[17px] py-[21px]">
+                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
+                                <div className="w-[110px] h-[85px] mt-[14px]">
+                                    <img src="./Logo/Programmer.png" alt="" />
+                                </div>
+                                <h3 className='font-[Poppins] text-lg text-black mt-[36px]'>HTML Dasar</h3>
+                                <p className='text-black'>Deskripsi kategori</p>
+                            </div>
+                        </div>
 
+                    <div className="px-[17px] py-[21px]">
+                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
+                                <div className="w-[110px] h-[85px] mt-[14px]">
+                                    <img src="./Logo/CSS.png" alt="" />
+                                </div>
+                                <h3 className='font-[Poppins] text-lg text-black mt-[36px]'>HTML Dasar</h3>
+                                <p className='text-black'>Deskripsi kategori</p>
+                            </div>
+                        </div>
+
+                     <div className="px-[17px] py-[21px]">
+                            <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
+                                <div className="w-[110px] h-[85px] mt-[14px]">
+                                    <img src="./Logo/Computer.png" alt="" />
+                                </div>
+                                <h3 className='font-[Poppins] text-lg text-black mt-[36px]'>HTML Dasar</h3>
+                                <p className='text-black'>Deskripsi kategori</p>
+                            </div>
+                        </div>
                 </div>
             </div>
         </>

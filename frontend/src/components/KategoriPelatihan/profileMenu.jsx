@@ -35,7 +35,7 @@ const ProfileMenu = () => {
     {
       label: "Sign Out",
       icon: PowerIcon,
-      path: "",
+      path: "regis",
     },
   ];
 

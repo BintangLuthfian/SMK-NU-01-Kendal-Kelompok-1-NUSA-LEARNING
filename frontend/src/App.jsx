@@ -46,26 +46,27 @@ import 'flowbite';
                     // users
 
 
-// import Home from "./Pages/Home";
-// import Dashboard from "./Pages/Dashboard";
-// import KategoriPelatihan from './Pages/KategoriPelatihan';
-// import Login from './Pages/Login';
-// import Register from './Pages/Register';
-// import Ban from './Pages/Pembayaran/Bank';
-// import Data from './Pages/Pembayaran/Data';
-// import Ewall from "./Pages/Pembayaran/Ewall";
-// import Cred from "./Pages/Pembayaran/Cred";
+import Home from "./Pages/Home";
+import Dashboard from "./Pages/Dashboard";
+import KategoriPelatihan from './Pages/KategoriPelatihan';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
+import Regis from './Pages/Register';
+import Ban from './Pages/Pembayaran/Bank';
+import Data from './Pages/Pembayaran/Data';
+import Ewall from "./Pages/Pembayaran/Ewall";
+import Cred from "./Pages/Pembayaran/Cred";
 import PusatPengetahuan2 from "./Pages/PusatPengetahuan2/PusatPengetahuan2";
 import Payment from "./Pages/PaymentHistory/Payment";
-// import Profil from "./Pages/Profil";
-// import Co from "./Pages/Co";
+import Profil from "./Pages/Profil";
+
 
                     // admin 
 
 
 // import Users from './components/Admin/User/Users';
-// // import AddUser from './components/Admin/User/AddUser';
-// // import EditUser from './components/Admin/User/EditUser';
+// import AddUser from './components/Admin/User/AddUser';
+// import EditUser from './components/Admin/User/EditUser';
 // import NavSideBar from "./components/Admin/Sidebar";
 // import Dashboard from './components/Admin/Dashboard/Dashboard';
 // import PelatihanSaya from './components/Admin/PelatihanSaya/PelatihanSaya';
@@ -83,7 +84,7 @@ function App() {
       
          {/* User */}
 
-       {/* <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
@@ -91,16 +92,17 @@ function App() {
       <Route path="/hal-pembayaran" element={<Data />} />
       <Route path="/bank" element={<Ban />} />
       <Route path="/E-wallet" element={<Ewall />} />
-      <Route path="/credit-card" element={<Cred />} /> */}
+      <Route path="/credit-card" element={<Cred />} /> 
       <Route path="/pusat-pengetahuan" element={<PusatPengetahuan2 />} />
       <Route path="/payment-history" element={<Payment />} />
-      {/* <Route path="/profil" element={<Profil />} /> 
-      <Route path="/coba" element={<Co />} /> */}
+      <Route path="/profile" element={<Profil />} />  
+      <Route path="/dashboard/regis" element={<Regis />} />
+   
 
 
          {/* admin */}
-        
-       {/* <Route path="/admin/*" element={<NavSideBar />} />
+{/*         
+       <Route path="/admin/*" element={<NavSideBar />} />
          </Routes>
 
 
