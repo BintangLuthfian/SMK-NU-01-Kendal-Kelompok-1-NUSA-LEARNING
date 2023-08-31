@@ -1,7 +1,7 @@
-import Navbar from "../components/isi pengetahuan/Navbar";
+import Navbar from "../components/KategoriPelatihan/Navbar";
 import Pelatihan from '../components/isi pengetahuan/Pelatihan'
 import Modul from '../components/isi pengetahuan/Modul';
-import Footer from "../components/PusatPengetahuan/Footer";  
+import Footer from "../components/PusatPengetahuan/Footer";
 
 
 function Pengetahuan() {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BiChevronRight, BiChevronDown } from "react-icons/bi";
-import Navbar from './Navbar';
+import "./sidebar.css"
 
 function SideBar() {
     const [isDropdown1Open, setIsDropdown1Open] = useState(false);
@@ -11,7 +11,7 @@ function SideBar() {
 
     return (
         <>
-            <Navbar />
+          
            
             <aside id="logo-sidebar" className="fixed top-0 left-0 z-40 w-64 h-[502px] pt-[64px] transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
                 <div dir="ltr" className="h-full pb-4 overflow-y-auto bg-[#EC2028]">

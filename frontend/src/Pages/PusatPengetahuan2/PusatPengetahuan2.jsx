@@ -1,27 +1,28 @@
 
 // import Navbar from "../../components/PusatPengetahuan/Navbar";  
-import Footer from "../../components/PusatPengetahuan2/Footer";  
+import Footer from "../../components/PusatPengetahuan/Footer";
 import Sidebar from "../../components/PusatPengetahuan2/Sidebar";
 import Start from "../../components/PusatPengetahuan2/Start";
 import Pelatihan from "../../components/PusatPengetahuan2/Pelatihan";
 import Nomer from "../../components/PusatPengetahuan2/Nomer";
-
+import Navbar from "../../components/KategoriPelatihan/Navbar";
 
 
 function PusatPengetahuan2() {
   return (
     <>
    
-    <div className="App">
-      <div>
+   
+    <Navbar />
+   
         <Sidebar />
-      </div>
+     
       <Start />
-      <div>
+      
       <Pelatihan />
-      </div>
+     
       <Nomer />
-    </div>
+
       <Footer />
      
           </>

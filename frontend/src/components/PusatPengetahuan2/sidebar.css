@@ -1,0 +1,24 @@
+#logo-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* Sesuaikan lebar Sidebar */
+    background-color: #EC2028;
+    /* Tambahan properti styling lain yang diperlukan */
+    margin-top: 65px;
+    height: 580px;
+  }
+  
+  .main-content {
+    margin-left: 64px; /* Sesuaikan margin dengan lebar Sidebar */
+    /* Tambahan properti styling lain yang diperlukan */
+  }
+  
+  #navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0; 
+    width: auto;
+  }

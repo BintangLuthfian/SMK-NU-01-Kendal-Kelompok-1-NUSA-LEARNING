@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -64,22 +65,25 @@ function Nomer3() {
             >
                 <h3 className="inline-block font-bold text-lg text-red ml-[46px] mt-[18px]">Kategori Pelatihan</h3>
                 <p className="flex justify-start text-black ml-[46px] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin condimentum aliquet arcu, sit amet eleifend tortor. Donec elementum enim quis ligula laoreet convallis. </p>
+                <Link to="/Kategori">
                 <button className='flex justify-center items-center active:text-xs text-white cursor-pointer text-[14px] active:text-xs hover:bg-red bg-red rounded active:w-[150px] active:h-[23px] absolute active:right-[30px] right-[25px] active:top-14 top-[52px] w-[163px] h-[25px]'>
-                    <span className='flex items-center select-none'>
+                    <span className='flex items-center select-none text-black'>
                         Tampilkan semua
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="ml-3 w-5 h-5 active:w-[16px] active:h-[16px]">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                         </svg>
                     </span>
                 </button>
-
+                </Link>
                 <div
                     className="flex overflow-x-scroll hide-scroll-bar"
                     ref={scrollContainerRef}
                     onScroll={handleScroll}
                     onMouseDown={handleMouseDown}
                 >
-                    <div className="flex flex-nowrap ml-[46px]">
+                    
+                    <div className="flex flex-nowrap ml-[46px]"> 
+                    <Link to="/Kategori">
                         <div className="pr-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -94,6 +98,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
+                        </Link>
+                        <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -108,6 +114,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
+                        </Link>
+                        <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -122,7 +130,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link>
+                        <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -137,7 +146,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link> 
+                      <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -152,7 +162,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link>
+                        <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -167,7 +178,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link> 
+<Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -182,7 +194,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link>
+                        <Link to="/Kategori"> 
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -197,7 +210,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                         </Link>
+                         <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -212,7 +226,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link>
+                        <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -227,7 +242,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link>
+                        <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -242,7 +258,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link>
+                        <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -257,7 +274,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link> 
+<Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -272,7 +290,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link>
+                        <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -287,7 +306,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link>
+                        <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -302,7 +322,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link>
+                        <Link to="/Kategori">
                         <div className="px-[17px] py-[21px]">
                             <div className="btn shadow-gray500 shadow-lg border border-black rounded-xl bg-red flex flex-col justify-start items-start w-[239px] h-[290px]">
                                 <div className="w-[110px] h-[85px] mt-[14px]">
@@ -317,7 +338,8 @@ function Nomer3() {
                                 <p className='text-black'>Deskripsi kategori</p>
                             </div>
                         </div>
-                        
+                        </Link>
+                     
                     </div>
                 </div>
                 {!isScrollAtStart && (

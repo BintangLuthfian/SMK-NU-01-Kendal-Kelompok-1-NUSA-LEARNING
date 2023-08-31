@@ -5,7 +5,7 @@ function Navbar() {
         <>
             <div className="navbar h-[64px] fixed top-0"
             style={{
-                backgroundColor: "#EC2028"
+                backgroundColor: "#4c91f0"
             }}
             >
                 <div className="navbar-start">

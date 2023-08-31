@@ -12,6 +12,7 @@
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "@material-tailwind/react": "^2.0.8",
+    "antd": "^5.8.5",
     "axios": "^1.4.0",
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.5.0",

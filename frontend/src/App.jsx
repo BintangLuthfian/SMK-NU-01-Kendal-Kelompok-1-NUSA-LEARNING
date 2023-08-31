@@ -59,7 +59,7 @@ import Cred from "./Pages/Pembayaran/Cred";
 import PusatPengetahuan2 from "./Pages/PusatPengetahuan2/PusatPengetahuan2";
 import Payment from "./Pages/PaymentHistory/Payment";
 import Profil from "./Pages/Profil";
-
+import Password from "./Pages/password";
 
                     // admin 
 
@@ -97,7 +97,7 @@ function App() {
       <Route path="/payment-history" element={<Payment />} />
       <Route path="/profile" element={<Profil />} />  
       <Route path="/dashboard/regis" element={<Regis />} />
-   
+      <Route path="/password" element={<Password />} />  
 
 
          {/* admin */}

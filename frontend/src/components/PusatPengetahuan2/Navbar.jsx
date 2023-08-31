@@ -1,10 +1,11 @@
 import ProfileMenu from "./profileMenu"; 
  import LanguageDropdown from "./languageDropdown"; 
+ import "./sidebar.css"
 
 function Navbar() {
     return (
         <>
-            <div className="navbar h-[64px]"
+            <div id="navbar" className="navbar "
             style={{
                 backgroundColor: "#4c91f0"
             }}
