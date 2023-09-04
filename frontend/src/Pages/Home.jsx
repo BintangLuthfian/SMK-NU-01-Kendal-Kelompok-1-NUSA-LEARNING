@@ -1,5 +1,5 @@
-import Footer from "../components/PusatPengetahuan/Footer";
-import Navbar from "../components/isi pengetahuan/Navbar";
+import Footer from "../components/layout/Footersemua";
+import Navbar from "../components/layout/Navbar";
 import Nomer2 from '../components/PusatPengetahuan/Nomer2';
 import Nomer3 from "../components/PusatPengetahuan/Nomer3";
 import Nomer4 from "../components/PusatPengetahuan/Nomer4";

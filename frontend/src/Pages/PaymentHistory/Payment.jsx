@@ -1,7 +1,7 @@
 
 // import Navbar from "../../components/PusatPengetahuan/Navbar";  
-import Footer from "../../components/PaymentHistory/Footer";  
-import Sidebar from "../../components/PaymentHistory/Sidebar";
+import Footer from "../../components/layout/Footersemua";
+import Sidebar from "../../components/layout/Sidebarakun";
 import Start from "../../components/PaymentHistory/Start";
 import Pelatihan from "../../components/PaymentHistory/Pelatihan";
 import Nomer from "../../components/PaymentHistory/Nomer";

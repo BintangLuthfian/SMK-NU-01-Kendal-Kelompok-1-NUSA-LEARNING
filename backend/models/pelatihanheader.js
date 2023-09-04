@@ -3,20 +3,18 @@ import db from "../config/database.js";
 
 const { DataTypes } = Sequelize;
 
-const Kategori = db.define(
-  "kategori",
+const PelatihanHeader = db.define(
+  "pelatihanheader",
   {
     name: DataTypes.STRING,
     description: DataTypes.STRING,
-    image: DataTypes.STRING,
-    url: DataTypes.STRING,
   },
   {
     freezeTableName: true,
   }
 );
 
-export default Kategori;
+export default PelatihanHeader;
 
 (async () => {
   await db.sync();

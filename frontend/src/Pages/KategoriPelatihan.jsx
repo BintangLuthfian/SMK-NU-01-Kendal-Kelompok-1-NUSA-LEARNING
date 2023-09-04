@@ -1,6 +1,6 @@
-import Navbar from "../components/KategoriPelatihan/Navbar";
+import Navbar from "../components/layout/Navbarakun";
 import Nomer2 from "../components/KategoriPelatihan/Nomer2";
-import Footer from "../components/PusatPengetahuan/Footer";
+import Footer from "../components/layout/Footersemua";
 
 function KategoriPelatihan() {
     return (

@@ -1,9 +1,9 @@
 import React from "react";
 import { DatePicker, Space } from "antd";
 import { Link } from "react-router-dom";
-import Footer from "../components/PusatPengetahuan/Footer";
-import Sidebar from "../components/PaymentHistory/Sidebar";
-import Navbar from "../components/KategoriPelatihan/Navbar";
+import Footer from "../components/layout/Footersemua";
+import Sidebar from "../components/layout/Sidebarakun";
+import Navbar from "../components/layout/Navbarakun";
 
 const onChange = (date, dateString) => {
   console.log(date, dateString);

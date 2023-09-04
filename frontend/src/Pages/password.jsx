@@ -1,7 +1,7 @@
 import React from "react";
 import { Input, Space } from "antd";
-import Footer from "../components/PusatPengetahuan/Footer";
-import Navbar from "../components/KategoriPelatihan/Navbar";
+import Footer from "../components/layout/Footersemua";
+import Navbar from "../components/layout/Navbar";
 import { Link } from "react-router-dom"
 
 const Password = () => {

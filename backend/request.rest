@@ -84,3 +84,19 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:5000/user/22
+
+
+
+###
+Get http://localhost:5000/test
+
+
+
+###
+POST http://localhost:5000/kategoriheader/header
+Content-Type: application/json
+
+{
+    "nama": "iklan",
+    "deskripsi": "10.000"
+}

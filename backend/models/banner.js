@@ -3,8 +3,8 @@ import db from "../config/database.js";
 
 const { DataTypes } = Sequelize;
 
-const Kategori = db.define(
-  "kategori",
+const Banner = db.define(
+  "banner",
   {
     name: DataTypes.STRING,
     description: DataTypes.STRING,
@@ -16,7 +16,7 @@ const Kategori = db.define(
   }
 );
 
-export default Kategori;
+export default Banner;
 
 (async () => {
   await db.sync();
